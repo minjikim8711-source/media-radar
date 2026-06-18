@@ -1,65 +1,109 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useState, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
+import { kpis } from '@/data/kpi-mapping';
+import KpiCard from '@/components/KpiCard';
+
+export default function HomePage() {
+  const router = useRouter();
+  const [selected, setSelected] = useState<string[]>([]);
+
+  const toggle = (id: string) =>
+    setSelected(prev => prev.includes(id) ? prev.filter(k => k !== id) : [...prev, id]);
+
+  const totalChannels = useMemo(() => {
+    if (selected.length === 0) return 14;
+    const seen = new Set<string>();
+    kpis
+      .filter(k => selected.includes(k.id))
+      .flatMap(k => k.categories)
+      .forEach(c => seen.add(c));
+    return kpis
+      .filter(k => selected.includes(k.id))
+      .reduce((sum, k) => sum + k.channelCount, 0);
+  }, [selected]);
+
+  const handleExplore = () => {
+    const q = selected.length > 0 ? `?kpis=${selected.join(',')}` : '';
+    router.push(`/results${q}`);
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="max-w-screen-xl mx-auto px-4 sm:px-6 py-12 space-y-12">
+      {/* Hero */}
+      <section className="max-w-2xl space-y-4">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-300 text-xs font-medium">
+          <span className="w-1.5 h-1.5 rounded-full bg-blue-400" />
+          2026 Media Strategy · Marketing &amp; BX Team
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+        <h1 className="text-3xl font-bold text-slate-100 leading-tight">
+          What are you<br />trying to achieve?
+        </h1>
+        <p className="text-sm text-slate-400 leading-relaxed">
+          Select one or more media channel types to explore opportunities, scores,
+          and strategic rationale tailored to your campaign goal.
+        </p>
+      </section>
+
+      {/* KPI Grid */}
+      <section className="space-y-4">
+        <h2 className="text-xs font-semibold text-slate-500 uppercase tracking-widest">
+          Select media channel types
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {kpis.map(kpi => (
+            <KpiCard
+              key={kpi.id}
+              kpi={kpi}
+              selected={selected.includes(kpi.id)}
+              onToggle={() => toggle(kpi.id)}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          ))}
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* CTA */}
+      <section className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+        <button
+          onClick={handleExplore}
+          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold rounded-xl transition-colors shadow-lg shadow-blue-900/30"
+        >
+          {selected.length === 0 ? 'Explore All Channels' : `View ${totalChannels} Channels`}
+          <span className="text-base">→</span>
+        </button>
+
+        {selected.length > 0 && (
+          <button
+            onClick={() => setSelected([])}
+            className="text-xs text-slate-500 hover:text-slate-300 underline"
+          >
+            Clear selection
+          </button>
+        )}
+
+        {selected.length === 0 && (
+          <p className="text-xs text-slate-500">
+            Or select specific channel types above to narrow results.
+          </p>
+        )}
+      </section>
+
+      {/* Quick-stats strip */}
+      <section className="grid grid-cols-3 gap-4 border-t border-slate-800 pt-8">
+        <div>
+          <p className="text-2xl font-bold text-slate-100">14</p>
+          <p className="text-xs text-slate-500 mt-0.5">Total channels</p>
+        </div>
+        <div>
+          <p className="text-2xl font-bold text-slate-100">6</p>
+          <p className="text-xs text-slate-500 mt-0.5">Channel types</p>
+        </div>
+        <div>
+          <p className="text-2xl font-bold text-emerald-400">8</p>
+          <p className="text-xs text-slate-500 mt-0.5">Rising trend</p>
+        </div>
+      </section>
+    </main>
   );
 }

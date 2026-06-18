@@ -1,0 +1,226 @@
+[
+  {
+    "name": "CGV Cinema Ads",
+    "category": "Cinema",
+    "description": "Full-motion video ads shown before screenings at CGV, the largest cinema chain in Korea with 130+ locations nationwide.",
+    "why": "Premium captive audience in a dark, undistracted environment. Effective for brand storytelling and product launches targeting affluent 25–45 year-olds who are difficult to reach through digital channels.",
+    "score": 7.5,
+    "trend": "Stable",
+    "competition": "Medium",
+    "details": "CGV controls 48% of Korean cinema screens across 130+ locations. Pre-show slots (5–10 minutes before feature) place the brand in a fully dark, phone-free environment with genuine audience attention. With 180 million annual industry admissions, cinema delivers a rare combination of premium attention quality and high creative latitude — 60-second spots, full-screen takeovers, and surround-sound audio unavailable in other OOH formats.",
+    "risks": [
+      "High CPM relative to digital — best suited for brand-building, not performance campaigns",
+      "Cinema admissions remain ~15% below pre-pandemic 2019 levels in some regions",
+      "4–6 week production lead time limits use for reactive or tactical campaigns"
+    ],
+    "exampleUsage": "Run a 60-second emotional brand film during the Chuseok blockbuster window across CGV IMAX locations in Gangnam, COEX, and Yeongdeungpo — pairing the upper-funnel story with a QR end-card driving to a home loan calculator."
+  },
+  {
+    "name": "Subway Screen Door Ads",
+    "category": "Transit",
+    "description": "Digital and static ads on platform screen doors across Seoul Metro's 9 lines, reaching millions of daily commuters at eye level on every platform.",
+    "why": "Extremely high frequency touchpoint for urban professionals. Commuters average 8+ exposures per week, making it ideal for product recall, app download campaigns, and QR-driven activations.",
+    "score": 8.2,
+    "trend": "Stable",
+    "competition": "High",
+    "details": "Seoul Metro carries 6–7 million daily passengers across Lines 1–9. Screen door ads appear at eye level with dwell times of 2–4 minutes per platform wait. Digital inventory on Lines 2, 5, and 9 supports motion creative and scheduled dayparting. Campaigns covering 50–200 stations can deliver 3–12 million weekly impressions, with measured uplift in branch foot traffic and app installs when paired with QR codes.",
+    "risks": [
+      "Category saturation — competing banks already dominate share of voice on key lines",
+      "Static formats on older lines (1, 3, 4) limit creative dynamism and brand expression",
+      "Renewal cycle requires 4–6 weeks advance booking; reactive slots are rarely available"
+    ],
+    "exampleUsage": "A 4-week burst on Line 2 (Gangnam, Hongdae, Sinchon, Kondae) with animated digital door creatives highlighting a new savings rate — QR code opens the app directly to the product page, with conversion tracked by UTM."
+  },
+  {
+    "name": "Station Naming Rights",
+    "category": "Transit Branding",
+    "description": "Co-naming rights for a subway station — the bank's brand is announced alongside the official station name on signage, PA systems, and navigation apps.",
+    "why": "Unmatched ambient brand presence. Station names are announced 40–60 times per hour, creating persistent top-of-mind awareness in a specific geographic catchment area near a branch or HQ.",
+    "score": 7.8,
+    "trend": "Rising",
+    "competition": "Low",
+    "details": "Seoul Metro's co-naming program lets brands append their name to any available station across all announcement and navigation touchpoints — PA, wayfinding signage, Kakao Map, Naver Map, and T-map. Contracts run 1–3 years, with automatic renewal if uncontested. Proximity to a flagship branch or headquarters creates a strong local halo effect, making the format highly effective for mortgage and wealth management products tied to specific districts.",
+    "risks": [
+      "Desirable station inventory is finite — premium locations are competitive at renewal",
+      "Negative incidents in the station's catchment area can create unwanted brand association",
+      "Geographic focus limits impact for nationwide or multi-product campaigns"
+    ],
+    "exampleUsage": "Secure 'Seolleung · K Bank Station' co-naming rights for 2 years, anchoring mortgage and wealth management awareness in Gangnam's highest-income corridor, reinforced with branch exterior signage and a local QR campaign at the station exit."
+  },
+  {
+    "name": "Bus Exterior Ads",
+    "category": "Transit",
+    "description": "Full-wrap or partial vinyl advertising on city buses operating across Seoul and major metropolitan areas, covering routes throughout the day.",
+    "why": "Mobile billboard with broad geographic coverage at a lower CPM than subway or cinema. Effective for mass awareness campaigns and seasonal promotions across diverse neighborhoods.",
+    "score": 6.5,
+    "trend": "Stable",
+    "competition": "Medium",
+    "details": "Seoul and metropolitan bus networks cover routes digital OOH cannot efficiently reach — residential neighborhoods, secondary cities, and suburban corridors. Full-wrap campaigns across 30–100 buses generate 1–5 million daily impressions depending on route selection. Creative changes require physical reprinting, so this format suits sustained campaigns of 4–12 weeks rather than tactical bursts.",
+    "risks": [
+      "No digital or daypart targeting — same creative runs around the clock regardless of audience",
+      "Impact quality drops at vehicle speed; impression recall is lower than static outdoor placements",
+      "Summer heat and weather degrade vinyl quality over long campaigns"
+    ],
+    "exampleUsage": "A 6-week vinyl wrap on 40 buses running the Yeouido financial district corridors (routes 145, 360, 461) to coincide with a spring IRP/pension product campaign targeting office workers commuting into the financial hub."
+  },
+  {
+    "name": "Taxi Top Ads",
+    "category": "Transit",
+    "description": "LED digital displays mounted on taxi rooftops, dynamically updated with location- and time-based ad content via GPS connectivity.",
+    "why": "GPS-triggered contextual messaging near branch locations and business districts. Growing digital inventory enables real-time creative swaps and A/B testing without reprinting costs.",
+    "score": 7.0,
+    "trend": "Rising",
+    "competition": "Low",
+    "details": "Kakao Mobility and T-map Taxi fleets operate over 250,000 taxis across Korean cities. Digital taxi top displays connect to GPS and mobile data networks, enabling real-time content updates and location-based triggers — when a taxi passes within 500m of a branch, creative can automatically switch to a branch-specific offer. Programmatic platforms like MOBI enable buy-by-the-hour scheduling with impression-level tracking.",
+    "risks": [
+      "Verified viewability is difficult — pedestrian vs. vehicle audience cannot be reliably segmented",
+      "Dynamic targeting requires integration with fleet management APIs, adding technical setup time",
+      "Premium city-center inventory has high CPM with limited daily supply"
+    ],
+    "exampleUsage": "Set a geo-trigger rule to display a 'Nearest Branch Open Now' creative when taxis pass within 300m of any K Bank branch during business hours, automatically switching to a digital account opening offer in the evenings."
+  },
+  {
+    "name": "Convenience Store Receipt Ads",
+    "category": "Retail",
+    "description": "Branded promotional messages printed on the reverse of customer receipts at CU, GS25, 7-Eleven, and Emart24 across the country.",
+    "why": "Proximity marketing at the moment of transaction. Consumers read receipts while still in a spending mindset — well-suited for card benefit promotions and limited-time sign-up offers.",
+    "score": 6.2,
+    "trend": "Declining",
+    "competition": "Low",
+    "details": "Korea's 55,000+ convenience stores print millions of receipts daily. Receipt back ads can carry QR codes, promotional offers, and short-form messaging at extremely low unit cost, with near-zero production overhead. The format's chief advantage is contextual proximity — reaching consumers immediately after a card transaction who are already thinking about spending.",
+    "risks": [
+      "Consumer attention to receipt backs is declining sharply as digital (app) receipts grow",
+      "Print format restricts creative to text and basic graphics — no motion, colour depth, or interactivity",
+      "Association with a receipt may undermine premium brand positioning for flagship products"
+    ],
+    "exampleUsage": "A 12-week national receipt campaign at CU and GS25 promoting a cashback credit card — back-of-receipt QR code drives to an instant card application with a ₩3,000 sign-up reward for cardless payment setup."
+  },
+  {
+    "name": "ATM Screen Ads",
+    "category": "Financial Touchpoint",
+    "description": "Dynamic product and service ads on ATM idle screens across banking networks, convenience stores, and shopping malls.",
+    "why": "Audience is already in a financial mindset with undivided attention. Zero competing content during the transaction window. Bank-owned ATMs offer a free inventory opportunity to cross-sell products.",
+    "score": 8.0,
+    "trend": "Stable",
+    "competition": "Low",
+    "details": "Korea has approximately 90,000 ATMs, split between bank-owned networks and third-party operators (Nautilus Hyosung, Diebold). Idle screen ads appear during 20–40 second transaction gaps and offer some of the highest attention quality of any OOH format. Bank-owned ATMs represent a fully owned media channel with zero media cost — capable of personalized CRM messaging when linked to logged-in sessions. Third-party networks offer paid programmatic packages with location-type audience segmentation.",
+    "risks": [
+      "ATM usage is in structural decline as mobile banking adoption accelerates among under-45s",
+      "Display size limitations (800×600px typical) constrain creative sophistication",
+      "ATM maintenance and downtime can reduce effective inventory without prior notice"
+    ],
+    "exampleUsage": "Deploy personalized idle-screen creatives on all bank-owned ATMs: logged-in customers see their best eligible product upgrade (e.g. 'You qualify for the Gold Card — tap to apply') based on transaction history and real-time credit standing."
+  },
+  {
+    "name": "Digital Billboard (DOOH)",
+    "category": "Digital OOH",
+    "description": "Programmatic full-motion ads on large-format LED screens in premium urban locations — Gangnam intersection, Hongdae, Times Square Yeongdeungpo, and COEX.",
+    "why": "Real-time audience data enables dayparting and contextual creative. Strong brand impact with motion content in high-footfall areas. Programmatic buying allows flexible budget control and campaign pacing.",
+    "score": 8.5,
+    "trend": "Rising",
+    "competition": "High",
+    "details": "Premium DOOH inventory across Korea's major urban hubs is increasingly programmatic, with real-time audience indexing from mobile device panels. Large-format LED displays support full-motion creative up to 15 seconds at 4K resolution. Dayparting enables distinct morning (commute-mode, product-specific) vs. evening (leisure-mode, brand-led) messaging. Kakao Mobility and Lotte Member Data can be layered for location-audience targeting, enabling precision delivery to high-income or frequent-buyer segments.",
+    "risks": [
+      "Premium locations command high CPM — ₩5–15M per 2-week burst per screen",
+      "Creative quality demands are unforgiving — low-resolution assets look poor at large scale",
+      "Q4 inventory is heavily contested; premium slots must be booked 8–12 weeks in advance"
+    ],
+    "exampleUsage": "A 2-week DOOH burst at the Gangnam Station intersection and Times Square during a fall product launch — a 10-second animated spot with a QR overlay, dayparted to financial office hours (9am–7pm) for a wealth management product targeting professionals aged 30–50."
+  },
+  {
+    "name": "Pop-up Store",
+    "category": "Experiential",
+    "description": "Temporary branded spaces in high-footfall locations such as Seongsu-dong, Hongdae, or major malls for hands-on product and service experiences.",
+    "why": "Generates organic UGC and social sharing at scale. Allows customers to try new financial products in a low-pressure, lifestyle-first environment. Particularly effective at attracting Gen Z and Millennials who distrust traditional banking formats.",
+    "score": 8.8,
+    "trend": "Rising",
+    "competition": "Medium",
+    "details": "Brand experience pop-ups in Seongsu-dong, Hongdae, and major malls (COEX, Starfield Hanam) have become a primary channel for Korean financial brands to connect with younger audiences outside the transactional context of a branch. A well-executed activation generates a 3–10× earned media multiplier through social sharing. Typical runs are 2–4 weeks with 5,000–30,000 visitors. Integration with app sign-up flows can drive measurable acquisition directly within the experience.",
+    "risks": [
+      "All-in cost (design, build, staffing, rent) ranges ₩2억–₩8억 for a flagship activation",
+      "Outdoor formats are weather-dependent; indoor mall locations carry premium rental costs",
+      "Staff quality and training are critical — poor on-site experience execution damages the brand more than no activation at all"
+    ],
+    "exampleUsage": "A 3-week 'Money Lab' pop-up in Seongsu-dong featuring interactive financial health stations, a branded café, and a digital savings goal visualization wall — with live product consultation, on-site app account opening, and a photo zone generating Instagram content at scale."
+  },
+  {
+    "name": "Sports Stadium Ads",
+    "category": "Sponsorship",
+    "description": "LED perimeter boards, kit sponsorship, and naming rights at KBO baseball, K-League football, or professional esports venues.",
+    "why": "Live broadcast multiplies reach well beyond stadium attendance. KBO viewership skews 30–55 male — strong demographic overlap with loan, investment, and credit card products. Sustained presence builds brand familiarity over a full season.",
+    "score": 7.5,
+    "trend": "Stable",
+    "competition": "High",
+    "details": "KBO draws 8–10 million stadium attendances annually with 10+ million TV viewers across KBS, MBC Sports, and Naver Sports streaming. LED perimeter boards appear in every broadcast frame, generating 600–900 GRP equivalents per season. Esports sponsorship (LCK, Valorant Champions Korea) targets a distinct 16–28 male demographic at a fraction of traditional sports CPM. Both formats carry broadcast clip amplification through YouTube highlight reels.",
+    "risks": [
+      "Season-long commitments (6+ months) with limited mid-contract exit options",
+      "Brand visibility is dependent on team screen time and broadcast production choices",
+      "Player or team controversies can generate negative brand association during high-profile incidents"
+    ],
+    "exampleUsage": "Front-of-jersey sponsorship for an LCK esports team for the Spring Split, with LED perimeter placement at the LoL Park arena — targeting the 18–28 male gamer segment for a digital-first bank account with in-game reward integration."
+  },
+  {
+    "name": "Elevator Lobby Ads",
+    "category": "OOH",
+    "description": "Digital screen ads in elevator lobbies of high-rise office buildings and residential apartment complexes across Seoul and major cities.",
+    "why": "Captive audience with 30–60 second dwell time and no phone distractions. Reaches office workers and apartment residents — a prime demographic for wealth management, mortgage, and savings product messaging.",
+    "score": 7.2,
+    "trend": "Rising",
+    "competition": "Medium",
+    "details": "Korea's dense high-rise landscape creates highly concentrated elevator advertising inventory. Networks like Seoul Ads and CJ OliveNetworks manage digital screens in 10,000+ buildings nationwide. Dwell time of 30–90 seconds per elevator wait is substantially higher than street-level OOH, and the enclosed space with no competing stimuli delivers rare attention quality. Residential building inventory can be segmented by apartment price tier, making it uniquely suited for wealth management and mortgage campaigns.",
+    "risks": [
+      "Premium residential and commercial inventory is limited and commands high rates",
+      "Screens in older buildings may have low resolution or inconsistent maintenance standards",
+      "Impression delivery across fragmented building networks is difficult to independently audit"
+    ],
+    "exampleUsage": "A 6-week campaign in elevator lobbies of apartment complexes in Mapo, Yongsan, and Seongdong-gu (average unit price ₩1.5B+) with a wealth management product message — timed to coincide with real estate transaction peak season in March–April."
+  },
+  {
+    "name": "Airport Ads",
+    "category": "Transit",
+    "description": "Large-format and digital placements at Incheon and Gimpo airports covering check-in halls, departure lounges, duty-free corridors, and baggage claim.",
+    "why": "Captures high-net-worth travelers and frequent business flyers — the ideal audience for premium banking cards, overseas remittance, foreign currency, and travel insurance products. Brand perception benefit from association with international travel.",
+    "score": 7.8,
+    "trend": "Stable",
+    "competition": "High",
+    "details": "Incheon International Airport is Asia's 5th busiest hub with 67+ million annual passengers. Departure lounge placements capture travelers in a high-dwell, low-distraction environment, often with 60–120 minutes of pre-boarding time. Digital displays allow real-time campaign updates and route-aware messaging. Gimpo Airport serves 25M+ annual domestic passengers — a distinct business traveler demographic. Both airports have strong financial services advertising history, making the format culturally familiar for banking brands.",
+    "risks": [
+      "International travel volumes still tracking below 2019 peak levels in some corridors",
+      "Premium inventory is expensive and dominated by major financial brands year-round",
+      "Ad context noise from duty-free retail and competing travel advertisers is high"
+    ],
+    "exampleUsage": "Departure hall digital placements at Incheon Terminal 1 targeting Korean travelers flying to Southeast Asia and Japan, featuring a travel insurance and foreign currency combo offer — activated during the Chuseok and summer vacation peak periods (July–August, September)."
+  },
+  {
+    "name": "KTX Train Interior Ads",
+    "category": "Transit",
+    "description": "Seat-back tray table ads, overhead compartment panel branding, and digital screen placements on KTX high-speed rail connecting Seoul to major regional cities.",
+    "why": "Long dwell time of 1–3 hours with a captive, document-reading audience. Effective for detailed product storytelling — loan calculators, investment products, and wealth management — targeting business travelers with high income levels.",
+    "score": 6.8,
+    "trend": "Stable",
+    "competition": "Low",
+    "details": "Korail's KTX network carries 40+ million passengers annually on routes connecting Seoul to Busan (2.5 hrs), Gwangju (1.5 hrs), and Gangneung (2 hrs). Tray table and panel formats have 1–3 hour dwell time in a seat-bound environment with limited smartphone distractions. Business traveler audience skews 35–55, with above-average household income. Packages can be booked by route segment (Seoul–Busan business corridor vs. Gangneung leisure route) allowing some audience tailoring.",
+    "risks": [
+      "Static print format only — no digital, motion, or interactive capability currently available",
+      "Audience reach is narrow compared to metro or DOOH volumes",
+      "KTX schedule disruptions or maintenance can reduce campaign delivery without compensation"
+    ],
+    "exampleUsage": "A tray table insert campaign across Seoul–Busan and Seoul–Gwangju business services (weekday AM/PM peak trains) promoting an SME loan product — featuring a QR code linking to a 5-minute online business loan pre-approval flow."
+  },
+  {
+    "name": "University Campus Ads",
+    "category": "OOH",
+    "description": "Posters, digital displays, sponsored events, and branded spaces on campuses of major universities including SKY and engineering schools.",
+    "why": "First-mover opportunity to establish banking relationships before students enter the workforce. Strong pipeline for youth checking accounts, student credit card acquisition, and long-term lifetime value building.",
+    "score": 7.0,
+    "trend": "Rising",
+    "competition": "High",
+    "details": "Korea's top 20 universities enroll 500,000+ students concentrated in Seoul (SKY, Sungkyunkwan, Sogang, Ewha) and Daejeon (KAIST). Campus media includes digital kiosks, dormitory poster frames, student newspaper placements, and sponsored events. First-year students are a critical acquisition window — banking relationships formed at age 20 typically persist for 7–12 years. KAIST and engineering campuses offer access to future tech-sector high earners at the lowest possible CPM of their lifetime.",
+    "risks": [
+      "Students generate minimal immediate product revenue — ROI horizon is 5–10 years",
+      "FSC regulations place restrictions on financial product advertising targeting under-21s",
+      "Campus media rights are fragmented — negotiation with each institution's student union is required"
+    ],
+    "exampleUsage": "A semester-long campus program at KAIST, Yonsei, and Korea University combining digital kiosk placements, a student financial wellness workshop series, and a first-account opening bonus — positioning the bank as the go-to partner for Korea's next generation of professionals."
+  }
+]

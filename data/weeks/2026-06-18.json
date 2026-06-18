@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-06-18T08:24:34.147Z",
+  "weekLabel": "Week of June 18, 2026",
+  "weekTheme": "Gen Z Acquisition Focus",
+  "aiCommentary": "This week's selection prioritizes high-novelty, digital-native channels with strong under-28 audience reach, reflecting a Q2 goal to grow the youth banking segment through experiential and contextual formats.",
+  "scoreWeights": {
+    "kpiFit": 0.3,
+    "novelty": 0.2,
+    "reach": 0.3,
+    "feasibility": 0.2
+  },
+  "count": 10,
+  "opportunities": [
+    {
+      "name": "Subway Screen Door Ads",
+      "category": "Transit",
+      "description": "Digital and static ads on platform screen doors across Seoul Metro Lines 1–9, reaching millions of daily commuters at eye level on every platform.",
+      "why": "Extremely high frequency touchpoint — commuters average 8+ exposures per week, ideal for product recall and QR-driven app download campaigns.",
+      "kpiFit": 9.4,
+      "novelty": 2.6,
+      "reach": 8.8,
+      "feasibility": 8.3,
+      "score": 7.6,
+      "trend": "Stable",
+      "competition": "High",
+      "details": "Seoul Metro carries 6–7 million daily passengers. Digital inventory on Lines 2, 5, and 9 supports motion creative and dayparting. Campaigns covering 50–200 stations deliver 3–12 million weekly impressions with measurable uplift in branch foot traffic.",
+      "risks": [
+        "Category saturation — competing banks hold significant share of voice on key lines",
+        "Static formats on Lines 1, 3, 4 limit creative dynamism",
+        "4–6 week advance booking required; reactive slots are rarely available"
+      ],
+      "exampleUsage": "A 4-week burst on Line 2 (Gangnam → Hongdae → Sinchon) with animated door creatives highlighting a new savings rate, QR code opening the app directly to the product page."
+    },
+    {
+      "name": "CarrotMarket (당근마켓) Local Ads",
+      "category": "Digital",
+      "description": "Hyper-local display ads in the CarrotMarket second-hand marketplace app, targeted by neighborhood and user transaction behavior.",
+      "why": "CarrotMarket's 22M MAU are engaged in community commerce — financial trust and local proximity are central to the user mindset, making it uniquely receptive to local banking offers.",
+      "kpiFit": 7.3,
+      "novelty": 7.9,
+      "reach": 8.1,
+      "feasibility": 6.7,
+      "score": 7.5,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "CarrotMarket allows geo-targeting at the dong (neighborhood) level, enabling branch-proximity campaigns with extreme geographic precision. Users are active sellers and buyers in a community trust context — a strong fit for savings account and credit product messaging.",
+      "risks": [
+        "User income skews below-average vs. other platforms — LTV per customer may be lower",
+        "Ad creative must feel hyper-local to avoid rejection from the community-first audience",
+        "Format is new — benchmark ROI data for financial products is limited"
+      ],
+      "exampleUsage": "A hyper-local campaign targeting users within 1km of each K Bank branch, offering a ₩10,000 neighborhood commerce bonus for new account holders who make their first Coupang or CarrotMarket payment with a K Bank card."
+    },
+    {
+      "name": "Taxi Top Digital Ads",
+      "category": "Transit",
+      "description": "GPS-connected LED displays on taxi rooftops, dynamically updated with location- and time-based creative.",
+      "why": "Location-triggered messaging near branches and business districts. Growing programmatic inventory enables A/B testing and hour-level scheduling without reprint costs.",
+      "kpiFit": 7.1,
+      "novelty": 7.2,
+      "reach": 6.8,
+      "feasibility": 7.3,
+      "score": 7.1,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "Kakao Mobility and T-map fleets operate 250,000+ taxis nationwide. GPS triggers allow creative to switch within 300m of a branch to a local offer. Platforms like MOBI support impression-level tracking.",
+      "risks": [
+        "Verified viewability is difficult — pedestrian vs. vehicle audience not reliably segmented",
+        "Dynamic targeting requires API integration with fleet management systems",
+        "Premium city-center inventory has high CPM with limited daily supply"
+      ],
+      "exampleUsage": "Geo-trigger a 'Nearest Branch Open Now' creative when taxis pass within 300m of any K Bank location, switching to a digital account-opening offer in the evenings."
+    },
+    {
+      "name": "Airport Terminal Ads",
+      "category": "Transit",
+      "description": "Large-format and digital placements at Incheon and Gimpo airports — check-in halls, departure lounges, duty-free corridors, and baggage claim.",
+      "why": "Captures high-net-worth travelers and frequent business flyers — the ideal audience for premium banking cards, overseas remittance, and travel insurance products.",
+      "kpiFit": 8.1,
+      "novelty": 5.2,
+      "reach": 7.2,
+      "feasibility": 7.2,
+      "score": 7.1,
+      "trend": "Stable",
+      "competition": "High",
+      "details": "Incheon Airport handles 67M+ annual passengers. Departure lounge placements have 60–120 minute pre-board dwell time. Digital displays support real-time updates and route-aware messaging. Gimpo targets Korea domestic business travelers.",
+      "risks": [
+        "International travel volumes still below 2019 peak in some corridors",
+        "Premium inventory dominated by major financial brands year-round",
+        "High context noise from duty-free retail and competing travel advertisers"
+      ],
+      "exampleUsage": "Departure hall placements at Incheon Terminal 1 targeting travelers to Southeast Asia and Japan — travel insurance and foreign currency combo offer, activated during Chuseok and summer peak seasons."
+    },
+    {
+      "name": "Kakao Webtoon Brand Integration",
+      "category": "Digital",
+      "description": "Branded content integration inside top-performing Kakao Webtoon series — product placement panels, sponsored episodes, and interstitial financial tip content.",
+      "why": "Kakao Webtoon reaches 8M+ daily readers in deeply engaged, long-session reading contexts. Financial literacy content blends naturally into slice-of-life and romance genres popular with 20–35 year-olds.",
+      "kpiFit": 5.6,
+      "novelty": 8.8,
+      "reach": 8,
+      "feasibility": 6,
+      "score": 7,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "Webtoon readers average 25+ minutes per session. Branded episodes and product placement panels can be negotiated directly with popular creator studios. Webtoon-native financial literacy content (\"How the main character manages her savings\") performs significantly better than standard display ads.",
+      "risks": [
+        "Creative production requires collaboration with original creator — quality control is limited",
+        "Brand placement must feel organic to the story — forced integrations receive negative reader backlash",
+        "Top-series placements carry long waitlists — 3–6 month lead time required"
+      ],
+      "exampleUsage": "A 6-episode sponsored financial wellness mini-series on a top-5 Kakao Webtoon, following a character through savings goals and first investment — with in-strip QR codes linking to a youth savings account."
+    },
+    {
+      "name": "Office Lobby Brand Activation",
+      "category": "Experiential",
+      "description": "Staffed brand activation kiosk in the lobby of a premium office building — Parc.1, GFC, ASEM — targeting working professionals during peak commute hours.",
+      "why": "Reaches high-income office workers in a professional mindset at the moment they enter or exit their workplace — high receptivity to investment, savings, and premium card products.",
+      "kpiFit": 8.4,
+      "novelty": 6.2,
+      "reach": 6.1,
+      "feasibility": 7,
+      "score": 7,
+      "trend": "Stable",
+      "competition": "Low",
+      "details": "Grade A office buildings in Yeouido, Gangnam, and the CBD host 50,000–150,000 workers daily. A staffed kiosk with product demonstrations and an incentivized sign-up offer can convert 1–3% of daily passers. Management approval and ROI tracking are relatively straightforward.",
+      "risks": [
+        "Building management approval can be slow or restrictive depending on existing tenant agreements",
+        "Staff-intensive format requires trained financial product consultants",
+        "Activation limited to business hours only — excludes evening and weekend footfall"
+      ],
+      "exampleUsage": "A 2-week staffed kiosk in Parc.1 Tower lobby (Yeouido) during morning rush hours (8–10am) offering instant IRP account opening with a ₩30,000 gift card incentive for qualifying income levels."
+    },
+    {
+      "name": "Brand Café Collaboration",
+      "category": "Experiential",
+      "description": "Co-branded café activation inside a trendy independent café or existing chain (Beanbrothers, Fritz, Zapangi) for 4–8 weeks.",
+      "why": "Café culture is the natural habitat of the target 25–38 demographic. Branded cups, coasters, and wi-fi landing pages create high-frequency repeat touchpoints in a premium context.",
+      "kpiFit": 7.1,
+      "novelty": 8.1,
+      "reach": 5.6,
+      "feasibility": 7,
+      "score": 6.8,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "Co-branding agreements provide branded merchandise, in-store digital displays, and staff-delivered banking product information in a non-transactional environment. Average café customer visits 3× per week — frequency rivals subscription media.",
+      "risks": [
+        "Café brand selection is critical — wrong café association undermines campaign positioning",
+        "Limited geographic reach per activation vs. broadcast formats",
+        "Quality control of branded merchandise and staff knowledge requires active management"
+      ],
+      "exampleUsage": "A 6-week co-brand with Fritz Coffee (Mapo flagship) — branded cups, K Bank savings QR on receipts, and a limited-edition loyalty stamp card for new account holders."
+    },
+    {
+      "name": "Seoul Marathon Title Sponsorship",
+      "category": "Sponsorship",
+      "description": "Title or presenting sponsorship of the Seoul International Marathon (DongA Marathon) — Korea's largest annual road race with 35,000+ participants and mass media coverage.",
+      "why": "Marathon sponsorship reaches a health-conscious, financially stable 30–50 demographic through participant engagement, mass media, and sustained pre-event brand building over 3–4 months.",
+      "kpiFit": 7.3,
+      "novelty": 6.4,
+      "reach": 6.7,
+      "feasibility": 5.7,
+      "score": 6.6,
+      "trend": "Stable",
+      "competition": "Medium",
+      "details": "The Seoul Marathon draws 35,000 runners and 200,000+ spectators. Presenting sponsors receive title naming rights, race bibs, finish-line branding, and broadcast logo placement across KBS, Naver Sports, and YouTube. Pre-race activations across major Han River parks extend reach over the training season.",
+      "risks": [
+        "Weather-dependent event — poor race day conditions affect spectator reach",
+        "Title sponsorship cost is significant (est. ₩5억–₩20억 annually)",
+        "Competitor brands in banking may dominate adjacent race categories"
+      ],
+      "exampleUsage": "Presenting sponsor title for 2 years — branded 'K Bank Seoul Marathon' — with a runner-exclusive savings product featuring a 0.5% bonus rate for participants who link their race registration to a bank account."
+    },
+    {
+      "name": "Elevator Lobby Screens",
+      "category": "OOH",
+      "description": "Digital screen ads in elevator lobbies of high-rise office buildings and residential apartment complexes across Seoul and major cities.",
+      "why": "Captive audience with 30–90 second dwell time and no phone distractions — prime demographic for wealth management, mortgage, and savings product messaging.",
+      "kpiFit": 6.8,
+      "novelty": 4.8,
+      "reach": 7.4,
+      "feasibility": 6.7,
+      "score": 6.6,
+      "trend": "Rising",
+      "competition": "Medium",
+      "details": "Networks like Seoul Ads and CJ OliveNetworks manage screens in 10,000+ buildings. Dwell time substantially exceeds street-level OOH. Residential building inventory can be segmented by apartment price tier.",
+      "risks": [
+        "Premium residential and commercial inventory is limited and expensive",
+        "Screens in older buildings may have low resolution or inconsistent maintenance",
+        "Impression delivery across fragmented networks is difficult to audit independently"
+      ],
+      "exampleUsage": "A 6-week campaign in elevator lobbies of ₩1.5B+ apartment complexes in Mapo, Yongsan, and Seongdong-gu with a wealth management message — timed to real estate transaction peak season (March–April)."
+    },
+    {
+      "name": "Bus Exterior Ads",
+      "category": "Transit",
+      "description": "Full-wrap or partial vinyl advertising on city buses operating across Seoul and major metropolitan areas.",
+      "why": "Mobile billboard with broad geographic coverage — reaches residential neighborhoods and secondary corridors at a lower CPM than subway or cinema.",
+      "kpiFit": 5.6,
+      "novelty": 2.7,
+      "reach": 7.4,
+      "feasibility": 9.3,
+      "score": 6.3,
+      "trend": "Stable",
+      "competition": "Medium",
+      "details": "Full-wrap campaigns across 30–100 buses generate 1–5 million daily impressions depending on route selection. Creative changes require physical reprinting, making this format best for sustained 4–12 week campaigns.",
+      "risks": [
+        "No digital or daypart targeting — same creative runs around the clock",
+        "Impact quality drops at speed; recall is lower than static placements",
+        "Summer heat and weather degrade vinyl quality over long campaigns"
+      ],
+      "exampleUsage": "A 6-week wrap on 40 buses along Yeouido financial district corridors (routes 145, 360, 461) timed to a spring IRP/pension product campaign."
+    }
+  ]
+}
