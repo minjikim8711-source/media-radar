@@ -1,0 +1,1975 @@
+{
+  "generatedAt": "2026-06-19T01:32:14.695Z",
+  "summary": {
+    "VALID": 81,
+    "INVALID": 3,
+    "DUPLICATE": 6,
+    "UNVERIFIED": 12
+  },
+  "sources": [
+    {
+      "id": "ooh-001",
+      "name": "CJ OliveNetworks",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.cjolivenetworks.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.cjolivenetworks.co.kr/business/media",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-002",
+      "name": "JCDecaux",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.jcdecaux.com",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.jcdecaux.com/our-solutions",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-003",
+      "name": "서울교통공사",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.seoulmetro.co.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.seoulmetro.co.kr/kr/advertise.do",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-004",
+      "name": "한국철도공사 (Korail)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.korail.com",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.korail.com",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-005",
+      "name": "공항철도 (AREX)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.arex.or.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.arex.or.kr/ko/sub04/sub04_04_01.do",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-006",
+      "name": "Kakao Mobility",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.kakaomobility.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.kakaomobility.com/service",
+        "status": 308,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-007",
+      "name": "신세계프라퍼티 (Starfield)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.starfield.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.starfield.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-008",
+      "name": "코엑스 (COEX)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.coex.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.coex.co.kr/biz/advertising",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-009",
+      "name": "롯데월드타워",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.lotteworld.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.lotteworld.com/tower",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-010",
+      "name": "한국도로공사",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.ex.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.ex.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-011",
+      "name": "부산교통공사",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.humetro.busan.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.humetro.busan.kr/homepage/default/rental/outdoor.hm",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-012",
+      "name": "인천도시철도",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.incheonmetro.co.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ENOTFOUND"
+      },
+      "monitoringUrl": {
+        "url": "https://www.incheonmetro.co.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ENOTFOUND"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "ooh-013",
+      "name": "대구도시철도공사",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.dtro.or.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.dtro.or.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-014",
+      "name": "광주도시철도공사",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.gwangjusubway.co.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "HPE_CR_EXPECTED"
+      },
+      "monitoringUrl": {
+        "url": "https://www.gwangjusubway.co.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "HPE_CR_EXPECTED"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "ooh-015",
+      "name": "대전도시철도공사",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.djet.co.kr",
+        "status": "TIMEOUT",
+        "verdict": "TIMEOUT"
+      },
+      "monitoringUrl": {
+        "url": "https://www.djet.co.kr",
+        "status": "TIMEOUT",
+        "verdict": "TIMEOUT"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "ooh-016",
+      "name": "서울시설공단",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.sisul.or.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.sisul.or.kr/open_content/main.do",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-017",
+      "name": "인천국제공항공사",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.airport.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.airport.kr/ap/ko/biz/advContents.do",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-018",
+      "name": "한국공항공사 (KAC)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.airports.co.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ECONNRESET"
+      },
+      "monitoringUrl": {
+        "url": "https://www.airports.co.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ECONNRESET"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "ooh-019",
+      "name": "더현대서울",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.thehyundai.com",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.thehyundai.com",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-020",
+      "name": "롯데쇼핑 (광고사업)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.lotteshopping.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.lotteshopping.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-021",
+      "name": "신세계백화점",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.shinsegae.com",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.shinsegae.com",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-022",
+      "name": "현대백화점",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.ehyundai.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.ehyundai.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-023",
+      "name": "한화갤러리아",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.galleria.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.galleria.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "ooh-024",
+      "name": "한국옥외광고센터 (KOAC)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.koac.or.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ENOTFOUND"
+      },
+      "monitoringUrl": {
+        "url": "https://www.koac.or.kr/koac/main.do",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ENOTFOUND"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "ooh-025",
+      "name": "부산항만공사 (BPA)",
+      "category": "OOH Suppliers",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.busanpa.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.busanpa.com/kor/Contents.do",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-001",
+      "name": "카카오 비즈니스",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://business.kakao.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://business.kakao.com/solution",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-002",
+      "name": "네이버 광고",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://searchad.naver.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://searchad.naver.com/solution/display",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-003",
+      "name": "Google Ads Korea",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://ads.google.com",
+        "status": 429,
+        "verdict": "ERROR"
+      },
+      "monitoringUrl": {
+        "url": "https://ads.google.com/intl/ko_kr/home/solutions",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "dap-004",
+      "name": "Meta Business Korea",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.facebook.com/business",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.facebook.com/business/ads",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-005",
+      "name": "TikTok for Business Korea",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.tiktok.com/business/ko",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "HPE_CR_EXPECTED"
+      },
+      "monitoringUrl": {
+        "url": "https://www.tiktok.com/business/ko/solutions",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "HPE_CR_EXPECTED"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "dap-006",
+      "name": "당근 비즈니스",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://business.daangn.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://business.daangn.com/partner",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-007",
+      "name": "토스 광고 (Viva Republica)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": true,
+      "duplicateOf": [
+        "cms-011"
+      ],
+      "sourceUrl": {
+        "url": "https://toss.im",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://toss.im/brand",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "DUPLICATE"
+    },
+    {
+      "id": "dap-008",
+      "name": "카카오페이 광고",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": true,
+      "duplicateOf": [
+        "cms-010"
+      ],
+      "sourceUrl": {
+        "url": "https://www.kakaopay.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.kakaopay.com/partner",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "DUPLICATE"
+    },
+    {
+      "id": "dap-009",
+      "name": "차지비 EV 광고 (CHARGEV)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.chargev.co.kr",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.chargev.co.kr",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-010",
+      "name": "EV Infra",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.evinfra.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.evinfra.com/b2b",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-011",
+      "name": "아파트너 (Aptner)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.aptner.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.aptner.com/partner",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-012",
+      "name": "배달의민족 광고",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://biz.baemin.com",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ENOTFOUND"
+      },
+      "monitoringUrl": {
+        "url": "https://biz.baemin.com/ads",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ENOTFOUND"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "dap-013",
+      "name": "쿠팡 광고",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.coupang.com",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.coupang.com",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-014",
+      "name": "SK T맵 광고",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.tmap.co.kr",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.tmap.co.kr",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-015",
+      "name": "모비온 (Mobon)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.mobon.net",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.mobon.net/solution",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-016",
+      "name": "크리테오 코리아 (Criteo)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.criteo.com/ko",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "monitoringUrl": {
+        "url": "https://www.criteo.com/ko/solutions",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "INVALID"
+    },
+    {
+      "id": "dap-017",
+      "name": "인크로스 (Incross)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.incross.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.incross.com/solution",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-018",
+      "name": "나스미디어 (NAS Media)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.nasmedia.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.nasmedia.co.kr/service",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-019",
+      "name": "이엠넷 (EM Net)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.emnet.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.emnet.co.kr/solution",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "dap-020",
+      "name": "메조미디어 (MezzoMedia)",
+      "category": "Digital Advertising Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.mezzomedia.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.mezzomedia.co.kr/media_trend",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-001",
+      "name": "CJ Olive Young",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.oliveyoung.co.kr",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.oliveyoung.co.kr/store/main/getBrand.do",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-002",
+      "name": "이마트 (E-Mart)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.emart.com",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.emart.com",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-003",
+      "name": "홈플러스 (Homeplus)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.homeplus.co.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://corporate.homeplus.co.kr/news",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-004",
+      "name": "롯데마트",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.lottemart.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.lottemart.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-005",
+      "name": "GS리테일 (GS25·GS슈퍼)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.gsretail.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.gsretail.com/gsretail/main.do",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-006",
+      "name": "BGF리테일 (CU)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://cu.bgfretail.com",
+        "status": 501,
+        "verdict": "ERROR"
+      },
+      "monitoringUrl": {
+        "url": "https://cu.bgfretail.com/brand/news.do",
+        "status": 501,
+        "verdict": "ERROR"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "pp-007",
+      "name": "코리아세븐 (7-Eleven Korea)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.7eleven.co.kr",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ECONNRESET"
+      },
+      "monitoringUrl": {
+        "url": "https://www.7eleven.co.kr/brand/news.aspx",
+        "status": "ERROR",
+        "verdict": "ERROR",
+        "error": "ECONNRESET"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "pp-008",
+      "name": "FastFive",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.fastfive.co.kr",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.fastfive.co.kr/partner",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-009",
+      "name": "GOLFZON",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.golfzon.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.golfzon.com/media/news.asp",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-010",
+      "name": "IKEA Korea",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.ikea.com/kr/ko",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.ikea.com/kr/ko/customer-service/services",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-011",
+      "name": "스타벅스 코리아",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.starbuckskorea.com",
+        "status": "TIMEOUT",
+        "verdict": "TIMEOUT"
+      },
+      "monitoringUrl": {
+        "url": "https://www.starbuckskorea.com/hub/ko/news.do",
+        "status": "TIMEOUT",
+        "verdict": "TIMEOUT"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "pp-012",
+      "name": "투썸플레이스",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.twosome.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.twosome.co.kr/brand/news.do",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-013",
+      "name": "마켓컬리 (Market Kurly)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.kurly.com",
+        "status": 308,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.kurly.com/goods/main",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-014",
+      "name": "롯데하이마트",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.himart.co.kr",
+        "status": 307,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.himart.co.kr",
+        "status": 307,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-015",
+      "name": "SSG닷컴",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.ssg.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.ssg.com/event/eventList.ssg",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-016",
+      "name": "롯데온 (Lotte ON)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.lotteon.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.lotteon.com",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-017",
+      "name": "HDC 아이파크몰",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.iparkmall.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.iparkmall.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-018",
+      "name": "WeWork Korea",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.wework.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.wework.com/en-US/locations/south-korea/seoul",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-019",
+      "name": "스파크플러스 (SparkPlus)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.sparkplus.co",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.sparkplus.co/partner",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-020",
+      "name": "미니스톱 코리아",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.ministop.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.ministop.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-021",
+      "name": "무신사 (Musinsa)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.musinsa.com",
+        "status": 308,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.musinsa.com/brand",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-022",
+      "name": "요기요 (Yogiyo)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.yogiyo.co.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.yogiyo.co.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-023",
+      "name": "직방 (Zigbang)",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.zigbang.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.zigbang.com/partner",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pp-024",
+      "name": "핀다 (Finda) — 파트너십",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": true,
+      "duplicateOf": [
+        "cms-012"
+      ],
+      "sourceUrl": {
+        "url": "https://www.finda.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.finda.co.kr/partner",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "DUPLICATE"
+    },
+    {
+      "id": "pp-025",
+      "name": "GS25",
+      "category": "Partnership Platforms",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.gs25.co.kr",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "monitoringUrl": {
+        "url": "https://www.gs25.co.kr/news/news01.gs",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "INVALID"
+    },
+    {
+      "id": "pos-001",
+      "name": "서울특별시",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.seoul.go.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.seoul.go.kr/seoul/business.do",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-002",
+      "name": "나라장터 (국가전자조달)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.g2b.go.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.g2b.go.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-003",
+      "name": "조달청 (PPS)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.pps.go.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.pps.go.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-004",
+      "name": "한강사업본부",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://hangang.seoul.go.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://hangang.seoul.go.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-005",
+      "name": "서울시립도서관",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://lib.seoul.go.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://lib.seoul.go.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-006",
+      "name": "서울공원 (공원녹지사업소)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://parks.seoul.go.kr",
+        "status": 500,
+        "verdict": "ERROR"
+      },
+      "monitoringUrl": {
+        "url": "https://parks.seoul.go.kr",
+        "status": 500,
+        "verdict": "ERROR"
+      },
+      "verdict": "UNVERIFIED"
+    },
+    {
+      "id": "pos-007",
+      "name": "서울주택도시공사 (SH)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.i-sh.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.i-sh.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-008",
+      "name": "한국토지주택공사 (LH)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.lh.or.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.lh.or.kr/lh/bizInfo/notice/notice.do",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-009",
+      "name": "서울산업진흥원 (SBA)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.sba.seoul.kr",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "monitoringUrl": {
+        "url": "https://www.sba.seoul.kr/nb/sub/news.do",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "INVALID"
+    },
+    {
+      "id": "pos-010",
+      "name": "인천광역시",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.incheon.go.kr",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.incheon.go.kr/IC010205",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-011",
+      "name": "부산광역시",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.busan.go.kr",
+        "status": 401,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.busan.go.kr/nbbusnews",
+        "status": 401,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-012",
+      "name": "경기도",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.gg.go.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.gg.go.kr/bbs/board.do",
+        "status": 500,
+        "verdict": "ERROR"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-013",
+      "name": "경기주택도시공사 (GH)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.gh.or.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.gh.or.kr/bbs/board.do",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-014",
+      "name": "대전광역시",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.daejeon.go.kr",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.daejeon.go.kr/kor/index.do",
+        "status": 403,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-015",
+      "name": "광주광역시",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.gwangju.go.kr",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.gwangju.go.kr/main.do",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-016",
+      "name": "대구광역시",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.daegu.go.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.daegu.go.kr/main.do",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-017",
+      "name": "울산광역시",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.ulsan.go.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.ulsan.go.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-018",
+      "name": "인천시설공단",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.insiseol.or.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.insiseol.or.kr/main/bbs/bbsList.do",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-019",
+      "name": "제주특별자치도",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.jeju.go.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.jeju.go.kr/open/openBiz/announceBiz.htm",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "pos-020",
+      "name": "한국관광공사 (KTO)",
+      "category": "Public Opportunity Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://kto.visitkorea.or.kr",
+        "status": 405,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://kto.visitkorea.or.kr/kor/notice/news/press.kto",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-001",
+      "name": "신한은행",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.shinhan.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.shinhan.com/rib/ca/CARYB10010000.jsp",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-002",
+      "name": "KB국민은행",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.kbstar.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.kbstar.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-003",
+      "name": "하나은행",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.hanabank.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.hanabank.com/ham/pub/cr/nwl/HamCrNwlPblList.do",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-004",
+      "name": "우리은행",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.wooribank.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.wooribank.com/pb/woori?withyou=PBNPR0001",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-005",
+      "name": "NH농협은행",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.nonghyup.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.nonghyup.com/company/NHnewsView.do",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-006",
+      "name": "IBK기업은행",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.ibk.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.ibk.co.kr/ibk/kr/consumer/info/news.jsp",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-007",
+      "name": "카카오뱅크",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.kakaobank.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.kakaobank.com/news",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-008",
+      "name": "토스뱅크",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.tossbank.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.tossbank.com/press",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-009",
+      "name": "네이버파이낸셜",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": false,
+      "duplicateOf": [],
+      "sourceUrl": {
+        "url": "https://www.naverfin.com",
+        "status": 308,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.naverfin.com/newsroom",
+        "status": 308,
+        "verdict": "LIVE"
+      },
+      "verdict": "VALID"
+    },
+    {
+      "id": "cms-010",
+      "name": "카카오페이",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": true,
+      "duplicateOf": [
+        "dap-008"
+      ],
+      "sourceUrl": {
+        "url": "https://www.kakaopay.com",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.kakaopay.com/newsroom",
+        "status": 404,
+        "verdict": "NOT_FOUND"
+      },
+      "verdict": "DUPLICATE"
+    },
+    {
+      "id": "cms-011",
+      "name": "토스 (Viva Republica)",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": true,
+      "duplicateOf": [
+        "dap-007"
+      ],
+      "sourceUrl": {
+        "url": "https://toss.im",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://toss.im/blog",
+        "status": 302,
+        "verdict": "LIVE"
+      },
+      "verdict": "DUPLICATE"
+    },
+    {
+      "id": "cms-012",
+      "name": "핀다 (Finda) — 경쟁 모니터링",
+      "category": "Competitor Monitoring Sources",
+      "categoryValid": true,
+      "isDuplicate": true,
+      "duplicateOf": [
+        "pp-024"
+      ],
+      "sourceUrl": {
+        "url": "https://www.finda.co.kr",
+        "status": 200,
+        "verdict": "LIVE"
+      },
+      "monitoringUrl": {
+        "url": "https://www.finda.co.kr/post",
+        "status": 301,
+        "verdict": "LIVE"
+      },
+      "verdict": "DUPLICATE"
+    }
+  ]
+}
