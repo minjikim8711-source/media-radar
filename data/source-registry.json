@@ -1,0 +1,1024 @@
+{
+  "sources": [
+    {
+      "id": "ooh-001",
+      "name": "CJ OliveNetworks",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.cjolivenetworks.co.kr",
+      "monitoringUrl": "https://www.cjolivenetworks.co.kr/business/media",
+      "targetAudiences": ["아파트 거주자", "오피스 빌딩 직장인", "주거 단지 세입자"],
+      "touchpointTypes": ["엘리베이터 로비 스크린", "아파트 단지 디지털 OOH"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-002",
+      "name": "JCDecaux",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.jcdecaux.com",
+      "monitoringUrl": "https://www.jcdecaux.com/our-solutions",
+      "targetAudiences": ["도심 보행자", "공항 이용객", "버스 이용자"],
+      "touchpointTypes": ["버스 쉘터 광고", "공항 라이트박스", "가로 시설물 OOH"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-003",
+      "name": "서울교통공사",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.seoulmetro.co.kr",
+      "monitoringUrl": "https://www.seoulmetro.co.kr/kr/advertise.do",
+      "targetAudiences": ["서울 지하철 이용자 (일 700만 명)", "환승역 유동인구"],
+      "touchpointTypes": ["지하철 역사 광고", "스크린도어 광고", "차량 내부 광고", "역명 병기"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-004",
+      "name": "한국철도공사 (Korail)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.korail.com",
+      "monitoringUrl": "https://www.korail.com",
+      "targetAudiences": ["KTX·ITX 장거리 여행자", "광역 통근자"],
+      "touchpointTypes": ["KTX 차량 내 디지털 스크린", "기차역 역사 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-005",
+      "name": "공항철도 (AREX)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.arex.or.kr",
+      "monitoringUrl": "https://www.arex.or.kr/ko/sub04/sub04_04_01.do",
+      "targetAudiences": ["인천공항 출발·도착 여행자", "비즈니스 출장자"],
+      "touchpointTypes": ["공항 철도 역사 스크린", "차량 내 디지털 광고"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-006",
+      "name": "Kakao Mobility",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.kakaomobility.com",
+      "monitoringUrl": "https://www.kakaomobility.com/service",
+      "targetAudiences": ["카카오T 이용자 (전 연령)", "도심 이동 중 소비자"],
+      "touchpointTypes": ["택시탑 프로그래매틱 LED 광고", "GPS 연동 위치 기반 OOH"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-007",
+      "name": "신세계프라퍼티 (Starfield)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.starfield.co.kr",
+      "monitoringUrl": "https://www.starfield.co.kr",
+      "targetAudiences": ["가족 단위 쇼핑객", "주말 여가 방문객", "25–45세 소비자"],
+      "touchpointTypes": ["복합쇼핑몰 입구 디지털 타워", "몰 내부 대형 스크린"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-008",
+      "name": "코엑스 (COEX)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.coex.co.kr",
+      "monitoringUrl": "https://www.coex.co.kr/biz/advertising",
+      "targetAudiences": ["비즈니스 전문직", "컨벤션·전시 참가자", "삼성역 유동인구"],
+      "touchpointTypes": ["코엑스몰 디지털 광고판", "컨벤션 센터 내 OOH", "아티움 대형 스크린"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-009",
+      "name": "롯데월드타워",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.lotteworld.com",
+      "monitoringUrl": "https://www.lotteworld.com/tower",
+      "targetAudiences": ["서울 잠실 방문객", "관광객", "고소득 소비자"],
+      "touchpointTypes": ["건물 외벽 대형 LED", "롯데몰 내부 프리미엄 스크린"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-010",
+      "name": "한국도로공사",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.ex.co.kr",
+      "monitoringUrl": "https://www.ex.co.kr",
+      "targetAudiences": ["고속도로 장거리 운전자", "주말 여행객", "물류 종사자"],
+      "touchpointTypes": ["고속도로 대형 빌보드", "휴게소 내부 디지털 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-011",
+      "name": "부산교통공사",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.humetro.busan.kr",
+      "monitoringUrl": "https://www.humetro.busan.kr/homepage/default/rental/outdoor.hm",
+      "targetAudiences": ["부산 지하철 이용자", "부산 도심 유동인구"],
+      "touchpointTypes": ["지하철 역사 광고", "스크린도어 광고", "차량 내 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-012",
+      "name": "인천도시철도",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.incheonmetro.co.kr",
+      "monitoringUrl": "https://www.incheonmetro.co.kr",
+      "targetAudiences": ["인천 주민", "송도 국제도시 직장인", "공항 연계 이용객"],
+      "touchpointTypes": ["역사 광고", "역명 병기", "차량 내 디지털 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-013",
+      "name": "대구도시철도공사",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.dtro.or.kr",
+      "monitoringUrl": "https://www.dtro.or.kr",
+      "targetAudiences": ["대구 지하철 이용자", "대구 도심 소비자"],
+      "touchpointTypes": ["역사 광고", "차량 내 광고"],
+      "priority": "low"
+    },
+    {
+      "id": "ooh-014",
+      "name": "광주도시철도공사",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.gwangjusubway.co.kr",
+      "monitoringUrl": "https://www.gwangjusubway.co.kr",
+      "targetAudiences": ["광주 지하철 이용자", "광주 도심 소비자"],
+      "touchpointTypes": ["역사 광고", "차량 내 광고"],
+      "priority": "low"
+    },
+    {
+      "id": "ooh-015",
+      "name": "대전도시철도공사",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.djet.co.kr",
+      "monitoringUrl": "https://www.djet.co.kr",
+      "targetAudiences": ["대전 지하철 이용자", "대전 도심 직장인"],
+      "touchpointTypes": ["역사 광고", "차량 내 광고"],
+      "priority": "low"
+    },
+    {
+      "id": "ooh-016",
+      "name": "서울시설공단",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.sisul.or.kr",
+      "monitoringUrl": "https://www.sisul.or.kr/open_content/main.do",
+      "targetAudiences": ["서울 공공 시설 이용자", "공원·문화 시설 방문객"],
+      "touchpointTypes": ["공공 시설 디지털 광고", "서울 주요 시설 OOH"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-017",
+      "name": "인천국제공항공사",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.airport.kr",
+      "monitoringUrl": "https://www.airport.kr/ap/ko/biz/advContents.do",
+      "targetAudiences": ["국제선 출국·입국 여행자", "공항 면세 쇼핑객", "비즈니스 출장자"],
+      "touchpointTypes": ["탑승 게이트 광고", "면세 구역 디지털 OOH", "수하물 수취대 광고", "입국장 통로 광고"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-018",
+      "name": "한국공항공사 (KAC)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.airports.co.kr",
+      "monitoringUrl": "https://www.airports.co.kr",
+      "targetAudiences": ["국내선 항공 이용자", "지방 공항 여행자"],
+      "touchpointTypes": ["국내 14개 공항 광고", "게이트 대기 공간 OOH"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-019",
+      "name": "더현대서울",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.thehyundai.com",
+      "monitoringUrl": "https://www.thehyundai.com",
+      "targetAudiences": ["25–40세 MZ세대 소비자", "프리미엄 쇼핑 고객", "여의도 직장인"],
+      "touchpointTypes": ["프리미엄 백화점 내 디지털 OOH", "아트리움 대형 스크린"],
+      "priority": "high"
+    },
+    {
+      "id": "ooh-020",
+      "name": "롯데쇼핑 (광고사업)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.lotteshopping.com",
+      "monitoringUrl": "https://www.lotteshopping.com",
+      "targetAudiences": ["롯데백화점 방문 고객", "롯데몰 쇼핑객"],
+      "touchpointTypes": ["백화점·몰 내부 디지털 OOH", "입구 대형 스크린"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-021",
+      "name": "신세계백화점",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.shinsegae.com",
+      "monitoringUrl": "https://www.shinsegae.com",
+      "targetAudiences": ["프리미엄 백화점 고객", "35–55세 고소득 소비자"],
+      "touchpointTypes": ["신세계 백화점 내 프리미엄 광고", "강남·본점 디지털 스크린"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-022",
+      "name": "현대백화점",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.ehyundai.com",
+      "monitoringUrl": "https://www.ehyundai.com",
+      "targetAudiences": ["현대백화점 방문 고객", "판교·압구정 상권 소비자"],
+      "touchpointTypes": ["백화점 내 디지털 광고", "판교 아울렛 OOH"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-023",
+      "name": "한화갤러리아",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.galleria.co.kr",
+      "monitoringUrl": "https://www.galleria.co.kr",
+      "targetAudiences": ["갤러리아 명품관 고객", "40–60세 고소득 소비자"],
+      "touchpointTypes": ["명품관 디지털 파사드", "내부 프리미엄 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "ooh-024",
+      "name": "한국옥외광고센터 (KOAC)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.koac.or.kr",
+      "monitoringUrl": "https://www.koac.or.kr/koac/main.do",
+      "targetAudiences": ["OOH 광고 시장 참여자", "옥외 광고 신상품 모니터링"],
+      "touchpointTypes": ["공공 OOH 인허가 매체", "디지털 옥외광고 신규 규제·허가 정보"],
+      "priority": "low"
+    },
+    {
+      "id": "ooh-025",
+      "name": "부산항만공사 (BPA)",
+      "category": "OOH Suppliers",
+      "sourceUrl": "https://www.busanpa.com",
+      "monitoringUrl": "https://www.busanpa.com/kor/Contents.do",
+      "targetAudiences": ["부산항 이용 물류 종사자", "국제 크루즈 여행객"],
+      "touchpointTypes": ["부산항 터미널 디지털 광고", "국제 크루즈 터미널 OOH"],
+      "priority": "low"
+    },
+    {
+      "id": "dap-001",
+      "name": "카카오 비즈니스",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://business.kakao.com",
+      "monitoringUrl": "https://business.kakao.com/solution",
+      "targetAudiences": ["카카오톡 사용자 (국내 4,500만 명)", "카카오맵·카카오페이·멜론 이용자"],
+      "touchpointTypes": ["카카오톡 비즈보드", "카카오 배너 광고", "카카오 채널", "카카오맵 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-002",
+      "name": "네이버 광고",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://searchad.naver.com",
+      "monitoringUrl": "https://searchad.naver.com/solution/display",
+      "targetAudiences": ["네이버 검색 이용자", "네이버 뉴스·쇼핑 방문자"],
+      "touchpointTypes": ["네이버 검색 광고", "성과형 디스플레이 광고 (GFA)", "네이버 배너"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-003",
+      "name": "Google Ads Korea",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://ads.google.com",
+      "monitoringUrl": "https://ads.google.com/intl/ko_kr/home/solutions",
+      "targetAudiences": ["구글 검색 이용자", "유튜브 시청자"],
+      "touchpointTypes": ["구글 검색 광고", "유튜브 영상 광고", "GDN 디스플레이 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-004",
+      "name": "Meta Business Korea",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.facebook.com/business",
+      "monitoringUrl": "https://www.facebook.com/business/ads",
+      "targetAudiences": ["Facebook·Instagram 국내 이용자", "20–45세 소비자"],
+      "touchpointTypes": ["Facebook 피드 광고", "Instagram 광고", "Reels 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-005",
+      "name": "TikTok for Business Korea",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.tiktok.com/business/ko",
+      "monitoringUrl": "https://www.tiktok.com/business/ko/solutions",
+      "targetAudiences": ["10–30대 TikTok 이용자", "MZ세대 콘텐츠 소비자"],
+      "touchpointTypes": ["TikTok 인피드 광고", "TopView 광고", "Branded Hashtag Challenge"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-006",
+      "name": "당근 비즈니스",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://business.daangn.com",
+      "monitoringUrl": "https://business.daangn.com/partner",
+      "targetAudiences": ["당근마켓 지역 이용자 (전 연령)", "지역 생활 밀착 소비자"],
+      "touchpointTypes": ["당근마켓 피드 광고", "당근페이 카드 연동 오퍼", "지역 채널 광고"],
+      "priority": "high"
+    },
+    {
+      "id": "dap-007",
+      "name": "토스 광고 (Viva Republica)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://toss.im",
+      "monitoringUrl": "https://toss.im/brand",
+      "targetAudiences": ["토스 앱 사용자 (2,800만 명)", "20–40대 금융 활성 이용자"],
+      "touchpointTypes": ["토스 홈피드 광고", "토스 배너", "금융 상품 임베디드 제안"],
+      "priority": "high"
+    },
+    {
+      "id": "dap-008",
+      "name": "카카오페이 광고",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.kakaopay.com",
+      "monitoringUrl": "https://www.kakaopay.com/partner",
+      "targetAudiences": ["카카오페이 사용자 (3,800만 명)", "간편결제 이용 소비자"],
+      "touchpointTypes": ["카카오페이 앱 내 광고", "결제 연동 오퍼", "금융 홈 배너"],
+      "priority": "high"
+    },
+    {
+      "id": "dap-009",
+      "name": "차지비 EV 광고 (CHARGEV)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.chargev.co.kr",
+      "monitoringUrl": "https://www.chargev.co.kr",
+      "targetAudiences": ["EV 운전자 (30–50세, 고소득)", "환경 관심 소비자"],
+      "touchpointTypes": ["EV 충전기 스크린 광고", "충전 대기 시간 브랜딩 (15–45분)"],
+      "priority": "high"
+    },
+    {
+      "id": "dap-010",
+      "name": "EV Infra",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.evinfra.com",
+      "monitoringUrl": "https://www.evinfra.com/b2b",
+      "targetAudiences": ["EV 충전 정보 앱 이용자", "전기차 오너 커뮤니티"],
+      "touchpointTypes": ["EV 충전 앱 내 광고", "충전소 위치 기반 광고"],
+      "priority": "high"
+    },
+    {
+      "id": "dap-011",
+      "name": "아파트너 (Aptner)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.aptner.com",
+      "monitoringUrl": "https://www.aptner.com/partner",
+      "targetAudiences": ["아파트 세대주 (30–50대)", "주거 단지 입주민"],
+      "touchpointTypes": ["아파트 관리 앱 내 광고", "공지사항 채널 금융 상품 제안"],
+      "priority": "high"
+    },
+    {
+      "id": "dap-012",
+      "name": "배달의민족 광고",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://biz.baemin.com",
+      "monitoringUrl": "https://biz.baemin.com/ads",
+      "targetAudiences": ["배달앱 이용 소비자 (전 연령)", "20–40대 온디맨드 이용자"],
+      "touchpointTypes": ["배달앱 홈 배너", "주문 완료 화면 광고", "앱 내 금융 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-013",
+      "name": "쿠팡 광고",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.coupang.com",
+      "monitoringUrl": "https://www.coupang.com",
+      "targetAudiences": ["쿠팡 쇼핑 이용자 (2,000만+ 로켓배송)", "온라인 쇼핑 소비자"],
+      "touchpointTypes": ["쿠팡 앱 배너 광고", "검색 스폰서 광고", "로켓배송 박스 인쇄 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-014",
+      "name": "SK T맵 광고",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.tmap.co.kr",
+      "monitoringUrl": "https://www.tmap.co.kr",
+      "targetAudiences": ["T맵 내비게이션 이용자 (2,000만 MAU)", "운전 중 소비자"],
+      "touchpointTypes": ["T맵 내비 중 목적지 추천 광고", "위치 기반 브랜드 핀"],
+      "priority": "high"
+    },
+    {
+      "id": "dap-015",
+      "name": "모비온 (Mobon)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.mobon.net",
+      "monitoringUrl": "https://www.mobon.net/solution",
+      "targetAudiences": ["모바일 앱 사용자", "웹 기반 소비자"],
+      "touchpointTypes": ["모바일 배너 광고", "네이티브 광고", "리타게팅"],
+      "priority": "low"
+    },
+    {
+      "id": "dap-016",
+      "name": "크리테오 코리아 (Criteo)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.criteo.com/ko",
+      "monitoringUrl": "https://www.criteo.com/ko/solutions",
+      "targetAudiences": ["이커머스 구매 의향 소비자", "금융 상품 검색자"],
+      "touchpointTypes": ["리타게팅 디스플레이", "동적 상품 광고", "커머스 미디어"],
+      "priority": "low"
+    },
+    {
+      "id": "dap-017",
+      "name": "인크로스 (Incross)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.incross.com",
+      "monitoringUrl": "https://www.incross.com/solution",
+      "targetAudiences": ["SK텔레콤 T우주 이용자", "통신 데이터 기반 타게팅 대상"],
+      "touchpointTypes": ["통신사 데이터 타게팅 광고", "T우주 구독 연계 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-018",
+      "name": "나스미디어 (NAS Media)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.nasmedia.co.kr",
+      "monitoringUrl": "https://www.nasmedia.co.kr/service",
+      "targetAudiences": ["KT 통신 데이터 기반 소비자", "디지털 미디어 이용자"],
+      "touchpointTypes": ["KT 데이터 기반 타게팅", "프로그래매틱 디스플레이"],
+      "priority": "medium"
+    },
+    {
+      "id": "dap-019",
+      "name": "이엠넷 (EM Net)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.emnet.co.kr",
+      "monitoringUrl": "https://www.emnet.co.kr/solution",
+      "targetAudiences": ["검색 광고 타겟 소비자", "네이버·구글 검색 이용자"],
+      "touchpointTypes": ["SEM 검색 광고", "퍼포먼스 디스플레이", "금융 키워드 광고"],
+      "priority": "low"
+    },
+    {
+      "id": "dap-020",
+      "name": "메조미디어 (MezzoMedia)",
+      "category": "Digital Advertising Platforms",
+      "sourceUrl": "https://www.mezzomedia.co.kr",
+      "monitoringUrl": "https://www.mezzomedia.co.kr/media_trend",
+      "targetAudiences": ["CJ ENM 미디어 이용자", "TV·디지털 크로스 소비자"],
+      "touchpointTypes": ["디지털 미디어 바잉", "크로스미디어 캠페인", "CJ 미디어 연계"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-001",
+      "name": "CJ Olive Young",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.oliveyoung.co.kr",
+      "monitoringUrl": "https://www.oliveyoung.co.kr/store/main/getBrand.do",
+      "targetAudiences": ["올리브영 앱 이용자 (1,200만)", "20–40대 여성 뷰티·건강 소비자"],
+      "touchpointTypes": ["카드 연동 캐시백 오퍼", "앱 내 금융 상품 배너", "POS 연동 즉시 할인"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-002",
+      "name": "이마트 (E-Mart)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.emart.com",
+      "monitoringUrl": "https://www.emart.com",
+      "targetAudiences": ["대형마트 쇼핑객 (가족 단위)", "30–55세 주거 소비자"],
+      "touchpointTypes": ["셀프계산대 스크린 광고", "진열대 끝단 디지털 OOH", "앱 내 카드 오퍼"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-003",
+      "name": "홈플러스 (Homeplus)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.homeplus.co.kr",
+      "monitoringUrl": "https://corporate.homeplus.co.kr/news",
+      "targetAudiences": ["홈플러스 쇼핑객 (30–55세)", "중형 도시 소비자"],
+      "touchpointTypes": ["셀프계산대 터미널 스크린", "영수증 광고", "앱 내 금융 오퍼"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-004",
+      "name": "롯데마트",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.lottemart.com",
+      "monitoringUrl": "https://www.lottemart.com",
+      "targetAudiences": ["롯데마트 쇼핑객", "가족 단위 소비자"],
+      "touchpointTypes": ["인스토어 광고", "롯데마트 앱 연동 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-005",
+      "name": "GS리테일 (GS25·GS슈퍼)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.gsretail.com",
+      "monitoringUrl": "https://www.gsretail.com/gsretail/main.do",
+      "targetAudiences": ["GS25 편의점 이용자 (전 연령)", "GS슈퍼 쇼핑객"],
+      "touchpointTypes": ["편의점 POS 연동 광고", "GS포인트 카드 연동"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-006",
+      "name": "BGF리테일 (CU)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://cu.bgfretail.com",
+      "monitoringUrl": "https://cu.bgfretail.com/brand/news.do",
+      "targetAudiences": ["CU 편의점 이용자", "아파트 단지 및 주택가 주민"],
+      "touchpointTypes": ["편의점 택배 보관함 스크린", "CU앱 카드 오퍼", "POS 연동 즉시 할인"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-007",
+      "name": "코리아세븐 (7-Eleven Korea)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.7eleven.co.kr",
+      "monitoringUrl": "https://www.7eleven.co.kr/brand/news.aspx",
+      "targetAudiences": ["7-Eleven 편의점 이용자", "도심·오피스 직장인"],
+      "touchpointTypes": ["편의점 내 광고", "세븐앱 연동 금융 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-008",
+      "name": "FastFive",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.fastfive.co.kr",
+      "monitoringUrl": "https://www.fastfive.co.kr/partner",
+      "targetAudiences": ["스타트업·프리랜서 (25–40세)", "서울 도심 코워커"],
+      "touchpointTypes": ["Wi-Fi 로그인 페이지 브랜딩", "코워킹 공간 디지털 스크린", "회의실 명명권"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-009",
+      "name": "GOLFZON",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.golfzon.com",
+      "monitoringUrl": "https://www.golfzon.com/media/news.asp",
+      "targetAudiences": ["스크린골프 이용자 (35–55세 남성 전문직)", "고소득 골프 마니아"],
+      "touchpointTypes": ["스크린골프 베이 모니터 브랜딩", "스코어카드 협찬", "시타 이벤트 연계"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-010",
+      "name": "IKEA Korea",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.ikea.com/kr/ko",
+      "monitoringUrl": "https://www.ikea.com/kr/ko/customer-service/services",
+      "targetAudiences": ["신혼부부·영가족 (25–40세)", "주거 인테리어 관심 소비자"],
+      "touchpointTypes": ["인스토어 금융 키오스크", "가구 할부 파트너십", "IKEA 앱 금융 서비스"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-011",
+      "name": "스타벅스 코리아",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.starbuckskorea.com",
+      "monitoringUrl": "https://www.starbuckskorea.com/hub/ko/news.do",
+      "targetAudiences": ["스타벅스 앱 이용자 (1,000만+)", "20–40대 카페 소비자"],
+      "touchpointTypes": ["스타벅스 카드 연동 파트너십", "매장 내 디지털 광고", "앱 내 금융 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-012",
+      "name": "투썸플레이스",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.twosome.co.kr",
+      "monitoringUrl": "https://www.twosome.co.kr/brand/news.do",
+      "targetAudiences": ["투썸플레이스 방문 고객 (20–45세)", "프리미엄 카페 소비자"],
+      "touchpointTypes": ["앱 카드 연동 캐시백", "카운터 디지털 메뉴 보드 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-013",
+      "name": "마켓컬리 (Market Kurly)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.kurly.com",
+      "monitoringUrl": "https://www.kurly.com/goods/main",
+      "targetAudiences": ["30–45세 프리미엄 식품 소비자", "새벽배송 이용 가정"],
+      "touchpointTypes": ["앱 내 금융 상품 배너", "컬리페이 연동 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-014",
+      "name": "롯데하이마트",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.himart.co.kr",
+      "monitoringUrl": "https://www.himart.co.kr",
+      "targetAudiences": ["가전제품 구매 소비자 (30–55세)", "고가 가전 할부 고객"],
+      "touchpointTypes": ["인스토어 할부 파트너십", "가전 금융 연계 광고", "POS 연동 카드 오퍼"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-015",
+      "name": "SSG닷컴",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.ssg.com",
+      "monitoringUrl": "https://www.ssg.com/event/eventList.ssg",
+      "targetAudiences": ["SSG 쇼핑 이용자", "신세계·이마트 충성 고객"],
+      "touchpointTypes": ["이커머스 금융 배너", "SSG 머니 연동 서비스"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-016",
+      "name": "롯데온 (Lotte ON)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.lotteon.com",
+      "monitoringUrl": "https://www.lotteon.com",
+      "targetAudiences": ["롯데온 쇼핑 이용자", "롯데 그룹 충성 고객"],
+      "touchpointTypes": ["이커머스 금융 배너", "롯데카드 연동 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-017",
+      "name": "HDC 아이파크몰",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.iparkmall.co.kr",
+      "monitoringUrl": "https://www.iparkmall.co.kr",
+      "targetAudiences": ["용산·부산 아이파크몰 방문객", "프리미엄 복합쇼핑 고객"],
+      "touchpointTypes": ["몰 내 디지털 광고", "브랜딩 파트너십"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-018",
+      "name": "WeWork Korea",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.wework.com",
+      "monitoringUrl": "https://www.wework.com/en-US/locations/south-korea/seoul",
+      "targetAudiences": ["글로벌 스타트업·외국계 기업 종사자", "25–40세 도심 코워커"],
+      "touchpointTypes": ["코워킹 스페이스 브랜딩", "멤버 앱 금융 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-019",
+      "name": "스파크플러스 (SparkPlus)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.sparkplus.co",
+      "monitoringUrl": "https://www.sparkplus.co/partner",
+      "targetAudiences": ["스타트업·중소기업 종사자 (25–40세)", "국내 코워킹 멤버"],
+      "touchpointTypes": ["코워킹 공간 디지털 스크린", "Wi-Fi 로그인 광고", "멤버 혜택 금융 서비스"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-020",
+      "name": "미니스톱 코리아",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.ministop.co.kr",
+      "monitoringUrl": "https://www.ministop.co.kr",
+      "targetAudiences": ["미니스톱 편의점 이용자", "도심·주거지 근접 소비자"],
+      "touchpointTypes": ["편의점 POS 연동 오퍼", "앱 카드 할인 파트너십"],
+      "priority": "low"
+    },
+    {
+      "id": "pp-021",
+      "name": "무신사 (Musinsa)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.musinsa.com",
+      "monitoringUrl": "https://www.musinsa.com/brand",
+      "targetAudiences": ["18–35세 패션 소비자", "MZ세대 온라인 쇼핑 이용자"],
+      "touchpointTypes": ["이커머스 금융 배너", "앱 내 BNPL 금융 연계"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-022",
+      "name": "요기요 (Yogiyo)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.yogiyo.co.kr",
+      "monitoringUrl": "https://www.yogiyo.co.kr",
+      "targetAudiences": ["배달앱 이용 소비자", "20–40대 도심 거주자"],
+      "touchpointTypes": ["배달앱 홈 배너", "주문 완료 금융 오퍼"],
+      "priority": "medium"
+    },
+    {
+      "id": "pp-023",
+      "name": "직방 (Zigbang)",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.zigbang.com",
+      "monitoringUrl": "https://www.zigbang.com/partner",
+      "targetAudiences": ["주거 매물 탐색자 (25–45세)", "부동산 거래·전월세 검색자"],
+      "touchpointTypes": ["부동산 앱 내 주담대 광고", "전세 대출 연계 배너"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-024",
+      "name": "핀다 (Finda) — 파트너십",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.finda.co.kr",
+      "monitoringUrl": "https://www.finda.co.kr/partner",
+      "targetAudiences": ["대출 상품 비교 탐색자", "30–50대 금융 소비자"],
+      "touchpointTypes": ["대출 비교 플랫폼 금융 상품 노출", "앱 내 K Bank 상품 제안"],
+      "priority": "high"
+    },
+    {
+      "id": "pp-025",
+      "name": "GS25",
+      "category": "Partnership Platforms",
+      "sourceUrl": "https://www.gs25.co.kr",
+      "monitoringUrl": "https://www.gs25.co.kr/news/news01.gs",
+      "targetAudiences": ["GS25 편의점 이용자 (전 연령)", "도심·주택가 근처 소비자"],
+      "touchpointTypes": ["편의점 POS 카드 연동", "GS&포인트 파트너십", "편의점 내 ATM 연계"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-001",
+      "name": "서울특별시",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.seoul.go.kr",
+      "monitoringUrl": "https://www.seoul.go.kr/seoul/business.do",
+      "targetAudiences": ["서울 시민 (950만 명)", "광역 서울 생활 인구"],
+      "touchpointTypes": ["서울시 공공 브랜딩 협찬", "스마트시티 인프라 파트너십"],
+      "priority": "high"
+    },
+    {
+      "id": "pos-002",
+      "name": "나라장터 (국가전자조달)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.g2b.go.kr",
+      "monitoringUrl": "https://www.g2b.go.kr",
+      "targetAudiences": ["공공기관 대상 B2G 파트너", "정부 입찰 참여 기업"],
+      "touchpointTypes": ["공공 입찰 공고 (협찬·광고)", "정부 인프라 파트너십 공모"],
+      "priority": "high"
+    },
+    {
+      "id": "pos-003",
+      "name": "조달청 (PPS)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.pps.go.kr",
+      "monitoringUrl": "https://www.pps.go.kr",
+      "targetAudiences": ["공공조달 참여 기업", "정부 협찬 파트너"],
+      "touchpointTypes": ["정부 조달 협찬·공동 구매", "공공 인프라 브랜딩 RFP"],
+      "priority": "high"
+    },
+    {
+      "id": "pos-004",
+      "name": "한강사업본부",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://hangang.seoul.go.kr",
+      "monitoringUrl": "https://hangang.seoul.go.kr",
+      "targetAudiences": ["한강공원 방문객 (연 7,000만 명)", "야외 레저 소비자"],
+      "touchpointTypes": ["한강공원 키오스크 협찬", "한강 시설물 브랜딩", "공원 디지털 광고"],
+      "priority": "high"
+    },
+    {
+      "id": "pos-005",
+      "name": "서울시립도서관",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://lib.seoul.go.kr",
+      "monitoringUrl": "https://lib.seoul.go.kr",
+      "targetAudiences": ["도서관 이용 시민 (전 연령)", "평생 교육 관심 소비자"],
+      "touchpointTypes": ["도서관 로비 디지털 스크린 협찬", "금융 웰니스 콘텐츠 파트너십"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-006",
+      "name": "서울공원 (공원녹지사업소)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://parks.seoul.go.kr",
+      "monitoringUrl": "https://parks.seoul.go.kr",
+      "targetAudiences": ["공원 산책·등산 방문자 (40–60세)", "건강 관심 시민"],
+      "touchpointTypes": ["공원 스마트벤치 QR 디스플레이", "둘레길 시설 협찬"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-007",
+      "name": "서울주택도시공사 (SH)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.i-sh.co.kr",
+      "monitoringUrl": "https://www.i-sh.co.kr",
+      "targetAudiences": ["SH 아파트 입주민", "공공 임대 주택 거주자"],
+      "touchpointTypes": ["공공 주택 단지 디지털 광고", "커뮤니티 시설 브랜딩"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-008",
+      "name": "한국토지주택공사 (LH)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.lh.or.kr",
+      "monitoringUrl": "https://www.lh.or.kr/lh/bizInfo/notice/notice.do",
+      "targetAudiences": ["LH 입주민", "신규 분양·임대 신청자"],
+      "touchpointTypes": ["LH 단지 커뮤니티 협찬", "입주 이사 금융 서비스 연계"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-009",
+      "name": "서울산업진흥원 (SBA)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.sba.seoul.kr",
+      "monitoringUrl": "https://www.sba.seoul.kr/nb/sub/news.do",
+      "targetAudiences": ["서울 스타트업 및 창업자", "중소기업 종사자"],
+      "touchpointTypes": ["창업 지원 시설 협찬", "혁신지구 미디어 파트너십"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-010",
+      "name": "인천광역시",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.incheon.go.kr",
+      "monitoringUrl": "https://www.incheon.go.kr/IC010205",
+      "targetAudiences": ["인천 시민 (295만 명)", "송도 국제도시 직장인·거주자"],
+      "touchpointTypes": ["인천시 공공 브랜딩", "스마트시티 인프라 협찬"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-011",
+      "name": "부산광역시",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.busan.go.kr",
+      "monitoringUrl": "https://www.busan.go.kr/nbbusnews",
+      "targetAudiences": ["부산 시민 (330만 명)", "부산 항만·물류 종사자"],
+      "touchpointTypes": ["부산시 공공 브랜딩 협찬", "해운대·센텀시티 인프라"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-012",
+      "name": "경기도",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.gg.go.kr",
+      "monitoringUrl": "https://www.gg.go.kr/bbs/board.do",
+      "targetAudiences": ["경기도 거주자 (1,400만 명)", "수도권 광역 생활 인구"],
+      "touchpointTypes": ["경기도 공공 시설 협찬", "GTX 연계 인프라 브랜딩"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-013",
+      "name": "경기주택도시공사 (GH)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.gh.or.kr",
+      "monitoringUrl": "https://www.gh.or.kr/bbs/board.do",
+      "targetAudiences": ["경기도 신규 분양 입주민", "공공 주택 거주자"],
+      "touchpointTypes": ["경기 공공 주택 단지 협찬", "입주 금융 서비스 연계"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-014",
+      "name": "대전광역시",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.daejeon.go.kr",
+      "monitoringUrl": "https://www.daejeon.go.kr/kor/index.do",
+      "targetAudiences": ["대전 시민 (140만 명)", "대덕 연구단지 종사자"],
+      "touchpointTypes": ["대전시 공공 브랜딩", "혁신도시 인프라 협찬"],
+      "priority": "low"
+    },
+    {
+      "id": "pos-015",
+      "name": "광주광역시",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.gwangju.go.kr",
+      "monitoringUrl": "https://www.gwangju.go.kr/main.do",
+      "targetAudiences": ["광주 시민 (140만 명)", "광주 AI 산업 종사자"],
+      "touchpointTypes": ["광주시 공공 브랜딩", "AI 클러스터 인프라 협찬"],
+      "priority": "low"
+    },
+    {
+      "id": "pos-016",
+      "name": "대구광역시",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.daegu.go.kr",
+      "monitoringUrl": "https://www.daegu.go.kr/main.do",
+      "targetAudiences": ["대구 시민 (230만 명)", "대구 상권 소비자"],
+      "touchpointTypes": ["대구시 공공 브랜딩", "신서혁신도시 협찬"],
+      "priority": "low"
+    },
+    {
+      "id": "pos-017",
+      "name": "울산광역시",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.ulsan.go.kr",
+      "monitoringUrl": "https://www.ulsan.go.kr",
+      "targetAudiences": ["울산 시민 (110만 명)", "현대차·현대중공업 종사자"],
+      "touchpointTypes": ["울산시 공공 브랜딩", "산업도시 협찬 프로그램"],
+      "priority": "low"
+    },
+    {
+      "id": "pos-018",
+      "name": "인천시설공단",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.insiseol.or.kr",
+      "monitoringUrl": "https://www.insiseol.or.kr/main/bbs/bbsList.do",
+      "targetAudiences": ["인천 공공 시설 이용자", "인천 스포츠·문화 시설 방문객"],
+      "touchpointTypes": ["인천 공공 시설 OOH", "체육·문화 시설 협찬"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-019",
+      "name": "제주특별자치도",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://www.jeju.go.kr",
+      "monitoringUrl": "https://www.jeju.go.kr/open/openBiz/announceBiz.htm",
+      "targetAudiences": ["제주 여행객 (연 1,400만 명)", "제주 이주 정착민"],
+      "touchpointTypes": ["제주 관광 인프라 협찬", "공항·렌터카 연계 광고"],
+      "priority": "medium"
+    },
+    {
+      "id": "pos-020",
+      "name": "한국관광공사 (KTO)",
+      "category": "Public Opportunity Sources",
+      "sourceUrl": "https://kto.visitkorea.or.kr",
+      "monitoringUrl": "https://kto.visitkorea.or.kr/kor/notice/news/press.kto",
+      "targetAudiences": ["해외 방한 관광객", "국내 여행 소비자"],
+      "touchpointTypes": ["관광 인프라 브랜딩 협찬", "Visit Korea 공동 캠페인"],
+      "priority": "medium"
+    },
+    {
+      "id": "cms-001",
+      "name": "신한은행",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.shinhan.com",
+      "monitoringUrl": "https://www.shinhan.com/rib/ca/CARYB10010000.jsp",
+      "targetAudiences": ["신한은행 고객", "주거래 은행 탐색자"],
+      "touchpointTypes": ["리테일 뱅킹 캠페인", "디지털 채널 광고", "OOH 미디어 집행"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-002",
+      "name": "KB국민은행",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.kbstar.com",
+      "monitoringUrl": "https://www.kbstar.com",
+      "targetAudiences": ["KB 국민은행 고객", "KB페이 이용자"],
+      "touchpointTypes": ["리테일 뱅킹 캠페인", "KB 앱 광고 전략", "브랜드 OOH"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-003",
+      "name": "하나은행",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.hanabank.com",
+      "monitoringUrl": "https://www.hanabank.com/ham/pub/cr/nwl/HamCrNwlPblList.do",
+      "targetAudiences": ["하나은행 고객", "하나머니 이용자"],
+      "touchpointTypes": ["디지털 광고 전략", "하나 앱 UI 분석", "캠페인 모니터링"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-004",
+      "name": "우리은행",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.wooribank.com",
+      "monitoringUrl": "https://www.wooribank.com/pb/woori?withyou=PBNPR0001",
+      "targetAudiences": ["우리은행 고객", "우리WON뱅킹 이용자"],
+      "touchpointTypes": ["리테일 뱅킹 캠페인", "디지털 채널 광고"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-005",
+      "name": "NH농협은행",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.nonghyup.com",
+      "monitoringUrl": "https://www.nonghyup.com/company/NHnewsView.do",
+      "targetAudiences": ["NH 농협 고객", "농촌·지역 거주자", "NH페이 이용자"],
+      "touchpointTypes": ["지역 밀착형 캠페인 모니터링", "NH 앱 전략"],
+      "priority": "medium"
+    },
+    {
+      "id": "cms-006",
+      "name": "IBK기업은행",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.ibk.co.kr",
+      "monitoringUrl": "https://www.ibk.co.kr/ibk/kr/consumer/info/news.jsp",
+      "targetAudiences": ["중소기업 임직원", "소상공인"],
+      "touchpointTypes": ["B2B 금융 마케팅 모니터링", "기업 캠페인 분석"],
+      "priority": "medium"
+    },
+    {
+      "id": "cms-007",
+      "name": "카카오뱅크",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.kakaobank.com",
+      "monitoringUrl": "https://www.kakaobank.com/news",
+      "targetAudiences": ["카카오뱅크 계좌 이용자 (2,300만+)", "MZ세대 디지털 은행 이용자"],
+      "touchpointTypes": ["디지털 네이티브 캠페인 분석", "카카오 생태계 광고 전략"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-008",
+      "name": "토스뱅크",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.tossbank.com",
+      "monitoringUrl": "https://www.tossbank.com/press",
+      "targetAudiences": ["토스뱅크 이용자", "20–40대 금융 혁신 수용자"],
+      "touchpointTypes": ["토스 생태계 광고 전략", "퍼포먼스 마케팅 분석"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-009",
+      "name": "네이버파이낸셜",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.naverfin.com",
+      "monitoringUrl": "https://www.naverfin.com/newsroom",
+      "targetAudiences": ["네이버페이 이용자 (3,500만+)", "네이버 쇼핑 결제 소비자"],
+      "touchpointTypes": ["네이버 생태계 금융 광고 모니터링", "네이버페이 연계 오퍼 분석"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-010",
+      "name": "카카오페이",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.kakaopay.com",
+      "monitoringUrl": "https://www.kakaopay.com/newsroom",
+      "targetAudiences": ["카카오페이 이용자 (3,800만+)", "간편결제 이용자"],
+      "touchpointTypes": ["카카오 생태계 금융 캠페인 분석", "간편결제 마케팅 트렌드"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-011",
+      "name": "토스 (Viva Republica)",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://toss.im",
+      "monitoringUrl": "https://toss.im/blog",
+      "targetAudiences": ["토스 앱 사용자 (2,800만+)", "20–40대 핀테크 이용자"],
+      "touchpointTypes": ["토스 생태계 신규 금융 상품 모니터링", "핀테크 마케팅 전략 분석"],
+      "priority": "high"
+    },
+    {
+      "id": "cms-012",
+      "name": "핀다 (Finda) — 경쟁 모니터링",
+      "category": "Competitor Monitoring Sources",
+      "sourceUrl": "https://www.finda.co.kr",
+      "monitoringUrl": "https://www.finda.co.kr/post",
+      "targetAudiences": ["대출 상품 비교 이용자", "30–50대 금융 비교 소비자"],
+      "touchpointTypes": ["대출 비교 플랫폼 경쟁 상품 모니터링", "금융 비교 채널 트렌드 분석"],
+      "priority": "medium"
+    }
+  ]
+}
