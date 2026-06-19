@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Header() {
   const now = new Date().toLocaleDateString('ko-KR', {
     year: 'numeric', month: 'long', day: 'numeric',
@@ -6,7 +8,7 @@ export default function Header() {
   return (
     <header className="border-b border-slate-800 bg-slate-950/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
             <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
               <span className="text-white text-xs font-bold">K</span>
@@ -21,6 +23,28 @@ export default function Header() {
               마케팅 & BX 전략 대시보드
             </p>
           </div>
+
+          {/* Nav links */}
+          <nav className="hidden md:flex items-center gap-1 ml-2">
+            <Link
+              href="/"
+              className="px-2.5 py-1 rounded-md text-xs text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-colors"
+            >
+              홈
+            </Link>
+            <Link
+              href="/results"
+              className="px-2.5 py-1 rounded-md text-xs text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-colors"
+            >
+              매체 탐색
+            </Link>
+            <Link
+              href="/sources"
+              className="px-2.5 py-1 rounded-md text-xs text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-colors"
+            >
+              소스 레지스트리
+            </Link>
+          </nav>
         </div>
 
         <div className="flex items-center gap-4">
