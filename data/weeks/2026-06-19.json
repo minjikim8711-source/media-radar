@@ -1,0 +1,395 @@
+{
+  "generatedAt": "2026-06-19T00:14:23.488Z",
+  "weekLabel": "Week of June 19, 2026",
+  "weekTheme": "Untapped Touchpoint Discovery",
+  "aiCommentary": "This week surfaces zero-competition formats where no Korean bank brand has yet established presence — early-mover advantage is the primary selection criterion.",
+  "scoreWeights": {
+    "kpiFit": 0.3,
+    "novelty": 0.2,
+    "reach": 0.3,
+    "feasibility": 0.2
+  },
+  "count": 11,
+  "opportunities": [
+    {
+      "name": "Coupang Pay Post-purchase Card Embed",
+      "category": "Fintech Partnership",
+      "description": "A native card recommendation embedded in the Coupang post-purchase confirmation screen — not a display ad, but a product placement inside the payment completion flow.",
+      "why": "The moment immediately after a successful Coupang purchase is the highest-intent financial product moment in Korean digital commerce. A card that earns cashback on this exact purchase is irresistible if presented at the right time.",
+      "whyNew": "Post-purchase card embeds exist in US e-commerce (Amazon Store Card model) but have not been executed in Korean commerce at this level of native integration.",
+      "marketAdoption": "Emerging",
+      "exampleBrands": [
+        "Hyundai Card (Coupang co-brand card, separate product)"
+      ],
+      "expectedImpact": "High conversion at peak purchase intent; direct attribution of card applications to specific Coupang transactions.",
+      "kpiFit": 8.3,
+      "novelty": 6.7,
+      "reach": 8.7,
+      "feasibility": 7.1,
+      "score": 7.9,
+      "trend": "Rising",
+      "competition": "Medium",
+      "details": "Coupang has 20M+ monthly active buyers. Post-purchase screens are monetised under Coupang's retail media program. A native 'Earn cashback on this order with K Bank Coupang Card' module outperforms any external ad by 10–30×.",
+      "risks": [
+        "Coupang may prioritise its own financial products over third-party bank cards",
+        "Integration requires Coupang API partnership and co-development effort",
+        "Revenue sharing terms with Coupang are not yet established for bank card integrations"
+      ],
+      "exampleUsage": "A native embed on the Coupang order confirmation page: 'You just spent ₩89,000. With K Bank Coupang Card, you'd earn ₩2,670 back. Apply in 2 minutes.' — pre-filled application triggered by Coupang account data."
+    },
+    {
+      "name": "IKEA Korea In-store Finance Kiosk",
+      "category": "Retail Partnership",
+      "description": "A branded financial consultation kiosk inside IKEA Korea near the checkout zone — offering home loan, interior financing, and instalment products to shoppers making large purchases.",
+      "why": "IKEA shoppers are in an active home improvement mindset. A large IKEA purchase is often a proxy trigger for a home loan or renovation credit product — the bank present at that moment converts far above cold channels.",
+      "whyNew": "In-store financial product placement at home furnishing retailers exists in the US and UK but has not been done at Korean IKEA stores by a domestic bank.",
+      "marketAdoption": "Early Adopter",
+      "exampleBrands": [
+        "Ikano Bank (IKEA Europe)",
+        "Synchrony Financial (IKEA US)"
+      ],
+      "expectedImpact": "High-intent acquisition at the point of a major home purchase decision; above-average loan product conversion.",
+      "kpiFit": 8.3,
+      "novelty": 7.9,
+      "reach": 7.4,
+      "feasibility": 6.8,
+      "score": 7.7,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "IKEA Korea has 6 locations with 10M+ annual visitors. Checkout zones have dwell time of 10–20 minutes. A kiosk or digital screen offering 'Interior Loan — Get instant approval while you shop' captures a high-intent audience at exactly the right moment.",
+      "risks": [
+        "IKEA has its own IKEA Family card program — may restrict financial product partnerships",
+        "Kiosk staffing requires trained product consultants",
+        "Per-location footfall varies significantly between smaller and larger stores"
+      ],
+      "exampleUsage": "A branded K Bank kiosk at IKEA Gwangmyeong and Goyang — 'Interior Renovation Loan: up to ₩50M, approved in 10 minutes while you shop' — with QR for digital application and in-person consultation for complex cases."
+    },
+    {
+      "name": "T-money Reload Machine Screens",
+      "category": "Transit Branding",
+      "description": "Idle-screen ad inventory on T-money top-up kiosks at subway stations, convenience stores, and transit hubs — a touchpoint no financial brand currently occupies.",
+      "why": "Users at a T-money machine are in a literal payment context and stationary for 20–40 seconds. The financial mindset and captive moment are ideal for a banking message.",
+      "whyNew": "No financial brand has claimed this idle-screen inventory. It sits in a financial transaction context with zero creative competition.",
+      "marketAdoption": "Early Adopter",
+      "exampleBrands": [],
+      "expectedImpact": "High-relevance frequency impressions in a payment-primed mindset at near-zero competitive noise.",
+      "kpiFit": 6.8,
+      "novelty": 9,
+      "reach": 6.9,
+      "feasibility": 8.2,
+      "score": 7.6,
+      "trend": "Stable",
+      "competition": "Low",
+      "details": "Korea has 15,000+ T-money reload machines. The idle screen between transactions is currently unfilled or filled with generic Seoul Metro imagery. Ad inventory can be secured through Seoul Metro's digital signage arm. QR codes support instant app deep-links.",
+      "risks": [
+        "T-money physical card usage is declining as NFC phone tap grows",
+        "Screen quality on older kiosks is inconsistent",
+        "Inventory management is fragmented across multiple operators"
+      ],
+      "exampleUsage": "A brand awareness creative on T-money kiosks along Line 2 and Line 9 promoting a transit-linked cashback debit card — QR opening the card application directly."
+    },
+    {
+      "name": "Maternity & Pediatric Clinic Waiting Rooms",
+      "category": "Healthcare",
+      "description": "Branded content and product information on screens and brochure stands in OB/GYN and pediatric clinic waiting areas — targeting new and expectant parents at a pivotal financial life stage.",
+      "why": "The arrival of a child is the single strongest trigger for savings accounts, education funds, life insurance, and mortgage planning. A bank present at this exact moment earns relationships that last decades.",
+      "whyNew": "Insurance companies advertise here but retail banks have not systematically entered maternity/pediatric clinic media — the life-stage alignment is perfect and the space is unclaimed.",
+      "marketAdoption": "Early Adopter",
+      "exampleBrands": [
+        "Kyobo Life (maternity insurance brochures)",
+        "Samsung Fire & Marine (pediatric clinic)"
+      ],
+      "expectedImpact": "Life-stage acquisition with the highest long-term LTV profile; brand as the trusted financial partner from day one of parenthood.",
+      "kpiFit": 9.1,
+      "novelty": 8.7,
+      "reach": 5.7,
+      "feasibility": 7,
+      "score": 7.6,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "Korea has 1,500+ OB/GYN clinics and 2,000+ pediatric clinics. New parents are 28–40, actively reassessing their financial situation, and open to guidance. Printed brochure stands, digital screens, and Wi-Fi sponsorship are viable access points.",
+      "risks": [
+        "Sensitive environment — messaging must be warm, not salesy",
+        "Clinic-by-clinic negotiation required — no network exists yet",
+        "Privacy considerations for in-clinic data collection"
+      ],
+      "exampleUsage": "A 'Welcome to Parenthood' financial starter kit in 300 OB/GYN clinic waiting rooms — a branded brochure with a QR to a 'New Parent Financial Plan' tool and a ₩10,000 baby fund contribution for new accounts."
+    },
+    {
+      "name": "Indoor Screen Golf (스크린골프) Branding",
+      "category": "Emerging",
+      "description": "Branded scorecards, bay monitor borders, and lounge displays at GOLFZON and KAKAO VX screen golf venues — reaching 6M+ Korean players during 2–3 hour social sessions.",
+      "why": "Screen golf is played predominantly by 35–55 professionals — the highest-overlap demographic with wealth management, investment, and premium credit card products. Sessions are social and relaxed, ideal for longer-form brand messages.",
+      "whyNew": "No bank or financial brand has systematically entered screen golf as a media channel despite near-perfect demographic alignment for wealth and investment products.",
+      "marketAdoption": "Early Adopter",
+      "exampleBrands": [
+        "Samsung Electronics (GOLFZON equipment sponsor, not financial)"
+      ],
+      "expectedImpact": "Premium brand exposure in a leisure context perfectly aligned with wealth management and investment product demographics.",
+      "kpiFit": 7.7,
+      "novelty": 9,
+      "reach": 6.8,
+      "feasibility": 6.7,
+      "score": 7.5,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "GOLFZON operates 10,000+ screen golf bays nationwide; KAKAO VX adds 3,000+ more. Session scorecards, bay monitor borders, and lounge waiting screens are all available for brand placement. The affluent suburban male (40–55) demographic is virtually untouched by financial brand media in this context.",
+      "risks": [
+        "Bay-level branding requires physical installation across thousands of locations",
+        "Demographics skew male and suburban — may not match broad acquisition targets",
+        "Competitor financial brands may move into this space quickly once it is established"
+      ],
+      "exampleUsage": "A GOLFZON scorecard sponsorship across 500 premium bay locations in Gangnam, Bundang, and Gwacheon — 'Improve your handicap. Improve your portfolio.' with a QR for a wealth management consultation on every printed scorecard."
+    },
+    {
+      "name": "당근페이 Community Commerce Integration",
+      "category": "Fintech Partnership",
+      "description": "A payment partnership within 당근마켓's peer-to-peer payment system — K Bank accounts as a featured funding source or a co-branded 'Safe Trade' guarantee product.",
+      "why": "당근마켓 is Korea's dominant community commerce platform with 22M MAU. P2P transactions require trust. A bank-backed 'Safe Trade' guarantee positions K Bank as the trust infrastructure for community commerce.",
+      "whyNew": "Community commerce platforms have P2P payment but no bank-backed trust layer. Providing this utility as a branded product creates infrastructure-level brand presence.",
+      "marketAdoption": "Early Adopter",
+      "exampleBrands": [],
+      "expectedImpact": "Infrastructure-level brand embedding in Korea's #1 community platform; trust association transfers powerfully to banking brand perception.",
+      "kpiFit": 7.6,
+      "novelty": 9,
+      "reach": 7.7,
+      "feasibility": 5.7,
+      "score": 7.5,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "당근마켓 has expanded into 당근페이 for P2P and local business payments. A 'K Bank Safe Trade' feature — where the bank holds funds in escrow during a trade and releases on buyer confirmation — creates genuine utility the platform currently lacks.",
+      "risks": [
+        "당근마켓 has its own fintech ambitions and may prefer to build this internally",
+        "Escrow product creates balance sheet liability and regulatory complexity",
+        "User income on 당근마켓 skews lower than premium targets"
+      ],
+      "exampleUsage": "A 'K Bank Safe Trade' badge for 당근마켓 sellers who connect their K Bank account — funds held safely until buyer confirms receipt, with 당근 coins rewarded for completed trades."
+    },
+    {
+      "name": "Airport Immigration Corridor Lightbox",
+      "category": "Airport",
+      "description": "Static and digital lightbox placements along the 5–10 minute walking corridor between arrival gate and immigration — a captive, ad-free environment almost no brand occupies.",
+      "why": "Arriving passengers walk 400–800m through the immigration corridor with nothing but walls and signage. The format is static, but it is the only channel in this undivided attention window.",
+      "whyNew": "Financial brands cluster in duty-free corridors and departure lounges. The arrivals corridor — where travelers are thinking about returning home — is systematically underused.",
+      "marketAdoption": "Emerging",
+      "exampleBrands": [
+        "Hana Bank (limited Incheon panel)",
+        "Citi Korea (arrivals hall lightbox)"
+      ],
+      "expectedImpact": "Dominant brand presence for returning Korean travelers; sequential storytelling across 5–10 minutes of walking time.",
+      "kpiFit": 7.2,
+      "novelty": 8.2,
+      "reach": 7.2,
+      "feasibility": 7.2,
+      "score": 7.4,
+      "trend": "Stable",
+      "competition": "Low",
+      "details": "Incheon Airport Terminal 1 arrival corridor has 50+ available panel positions between gates and immigration hall. A branded lightbox campaign of 10–20 panels would dominate the visual field of 40M+ arriving passengers annually.",
+      "risks": [
+        "Competition from duty-free and luxury brands for prime panel positions",
+        "Static format only — no digital or motion available in most corridor sections",
+        "Panel maintenance requires airport authority coordination"
+      ],
+      "exampleUsage": "A 10-panel lightbox campaign along Terminal 1's international arrivals corridor — a sequential brand story ending with a QR for an overseas investment product overview."
+    },
+    {
+      "name": "Coin Laundromat Screen Ads (무인세탁)",
+      "category": "Emerging",
+      "description": "Digital screens inside unmanned coin laundromats in urban residential areas — reaching urban renters during a mandatory 40–60 minute wait.",
+      "why": "Coin laundromat users are predominantly urban renters aged 22–35 — the exact Gen Z and Millennial acquisition target. They are stationary for 40–60 minutes with their phone and nothing else to do. No financial brand has ever appeared here.",
+      "whyNew": "Coin laundromat advertising is genuinely unexplored in Korea. The demographic match (urban renters, 22–35) and dwell time make it one of the most undervalued emerging formats available.",
+      "marketAdoption": "Early Adopter",
+      "exampleBrands": [],
+      "expectedImpact": "Genuine first-mover advantage in a zero-competition environment with perfect Gen Z demographic targeting.",
+      "kpiFit": 6.9,
+      "novelty": 9.7,
+      "reach": 5.9,
+      "feasibility": 7.6,
+      "score": 7.3,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "Korea has 25,000+ coin laundromats, heavily concentrated in renter-dense neighbourhoods like Mapo, Seongdong, Gwanak, and Yeonsu. Digital screens are increasingly installed as operators upgrade to smart laundromat formats.",
+      "risks": [
+        "Screen rollout varies by operator — digital inventory is still a minority of laundromat locations",
+        "Small footprint per location means a large number of locations is needed for scale",
+        "Demographic income is lower — better for entry-level acquisition than wealth products"
+      ],
+      "exampleUsage": "'While you wait, your savings could be working.' — a 15-second loop on coin laundromat screens in Sinchon, Hongdae, and Seongsu with a QR for a student savings account offering 5% APY and no minimum balance."
+    },
+    {
+      "name": "University Cafeteria Tray Liner Ads",
+      "category": "Campus",
+      "description": "Printed tray liners on serving trays at university cafeterias — 100% viewable during the entire 15–20 minute meal period with no way to skip.",
+      "why": "The cafeteria tray sits directly in the student's field of view for the full meal. Unlike any digital format, the student cannot scroll past it, close it, or skip it.",
+      "whyNew": "Tray liner advertising is common in the US but virtually unused by financial brands in Korea — guaranteed passive attention at minimal cost.",
+      "marketAdoption": "Emerging",
+      "exampleBrands": [
+        "Various insurance brands (one-off executions)"
+      ],
+      "expectedImpact": "Guaranteed passive attention during a daily ritual; strong recall due to visual field dominance of the format.",
+      "kpiFit": 5.8,
+      "novelty": 8.3,
+      "reach": 6.8,
+      "feasibility": 9.1,
+      "score": 7.3,
+      "trend": "Stable",
+      "competition": "Low",
+      "details": "Korea's top 30 universities serve 200,000+ cafeteria meals daily. Tray liner production costs are extremely low (₩10–30 per liner). The format supports QR codes. Students eating together create organic conversation around the brand message.",
+      "risks": [
+        "Print format only — no motion, interaction, or A/B testing",
+        "Liners require printing cycle management — 2–3 week lead time per creative rotation",
+        "Association with cafeteria food may not align with premium product positioning"
+      ],
+      "exampleUsage": "'Your first salary deserves a real savings plan. Open in 2 min.' — a spring semester tray liner at 15 universities with a QR to a student savings calculator, rotating quarterly."
+    },
+    {
+      "name": "Graduate School MBA Partnership",
+      "category": "Campus",
+      "description": "Branded sponsorship of case competitions, investment clubs, and career fairs at KAIST MBA, Yonsei Business School, and Sungkyunkwan GSB.",
+      "why": "MBA students are 28–38 year-olds with household incomes already above average, accelerating fast, and about to become the highest-LTV financial product buyers in Korea.",
+      "whyNew": "Digital-first banks have not systematically engaged the MBA ecosystem despite it being the clearest feeder for private banking, investment, and SME clients.",
+      "marketAdoption": "Emerging",
+      "exampleBrands": [
+        "KB Kookmin Bank (SKK GSB sponsor)",
+        "Hana Bank (Yonsei career fair)"
+      ],
+      "expectedImpact": "Long-term pipeline of high-LTV private banking clients; brand positioning as the innovation-forward bank of choice for future finance leaders.",
+      "kpiFit": 9.3,
+      "novelty": 5.9,
+      "reach": 5.6,
+      "feasibility": 7.9,
+      "score": 7.2,
+      "trend": "Stable",
+      "competition": "Medium",
+      "details": "Korea's top business schools graduate 5,000+ MBA students annually. Case competition sponsorship (₩3–8M per event) delivers a logo on every submission, a branded judge seat, and networking access to top students.",
+      "risks": [
+        "One-off event sponsorships have low brand recall without year-round touchpoints",
+        "Competitor banks have established MBA relationships and may be preferred employer-of-choice brands",
+        "Return is long-term — conversion to product holder is 2–5 years post-graduation"
+      ],
+      "exampleUsage": "Title sponsor of KAIST MBA's annual Finance Case Championship — branded award, ₩5M prize fund, and a 'K Bank Future Leaders' networking dinner for finalists, with a private banking consultation offer for graduating cohort."
+    },
+    {
+      "name": "Hair Salon Mirror Screen Ads",
+      "category": "Emerging",
+      "description": "Digital screens embedded in styling mirror frames at mid-to-premium hair salons — visible to clients throughout a 45–90 minute service appointment.",
+      "why": "Hair salon clients are stationary for 45–90 minutes with no practical way to avoid the mirror and its embedded screen. Forced-attention environments dramatically exceed passive media recall.",
+      "whyNew": "Hair salon mirror advertising is standard in the US (Salon Media Group) but does not yet exist as a structured media network in Korea — entering now means shaping the format before it commoditises.",
+      "marketAdoption": "Early Adopter",
+      "exampleBrands": [
+        "Allure Media (US salon screens)",
+        "Citi (US salon pilot)"
+      ],
+      "expectedImpact": "Captive female demographic touchpoint with high dwell time; strong brand recall in a beauty context aligned with lifestyle financial products.",
+      "kpiFit": 7.2,
+      "novelty": 8.6,
+      "reach": 6.2,
+      "feasibility": 6.7,
+      "score": 7.1,
+      "trend": "Rising",
+      "competition": "Low",
+      "details": "Korea has 90,000+ hair salons; 10,000+ in the premium segment. Smart mirror screen networks are beginning to emerge in Korea. The client demographic in mid-premium salons skews 25–45, female-dominant, with above-average spending power.",
+      "risks": [
+        "Smart mirror infrastructure is nascent in Korea — large-scale network does not yet exist",
+        "Salon owner buy-in requires revenue-sharing model and hardware installation",
+        "Forced-attention environment can generate backlash if creative is poorly received"
+      ],
+      "exampleUsage": "A branded content series 'Style Your Finances' on salon mirror screens in 200 premium salons in Gangnam and Hongdae — 60-second rotating content on savings tips, with a QR for a women-focused savings product offer."
+    }
+  ],
+  "discoveries": [
+    {
+      "title": "ChargeEV Launches Ad-Supported EV Charger Screen Monetization Program",
+      "source": "ChargeEV",
+      "category": "EV Infrastructure",
+      "discoveryDate": "2026-06-19",
+      "whyItMatters": "ChargeEV — Korea's largest independent EV charging network with 50,000+ chargers — is launching a formal advertising monetization program for its charger display screens. Financial services are the highest-priority category. Advertisers receive 15–45 minutes of dwell-time exposure per charge session. This is the first EV charger ad network at scale in Korea.",
+      "opportunityScore": 9,
+      "isNew": true,
+      "isReturning": false
+    },
+    {
+      "title": "GOLFZON Announces Media Partnership Program for Bay Monitor Screen Branding",
+      "source": "GOLFZON",
+      "category": "Coworking",
+      "discoveryDate": "2026-06-19",
+      "whyItMatters": "GOLFZON is formally launching a media partnership program offering bay monitor border branding and scorecard sponsorship across its 10,000+ Korean bays. One financial brand partner will receive category exclusivity. The 35–55 male professional demographic using GOLFZON is the highest-overlap audience for wealth management and premium card products.",
+      "opportunityScore": 8.7,
+      "isNew": true,
+      "isReturning": false
+    },
+    {
+      "title": "Kakao Mobility Programmatic Taxi-Top LED Network Launches Nationwide",
+      "source": "Kakao Mobility",
+      "category": "Transit",
+      "discoveryDate": "2026-06-19",
+      "whyItMatters": "Kakao Mobility is launching a programmatic taxi-top LED network across its 180,000 vehicle fleet. GPS-triggered creative changes enable branch-proximity campaigns and daypart-based financial product messaging. This is the first programmatic OOH format in Korea with real-time location data at scale.",
+      "opportunityScore": 8.3,
+      "isNew": true,
+      "isReturning": false
+    },
+    {
+      "title": "Incheon Metro Line 2 Station Co-Naming Auction Opens for 8 Stations",
+      "source": "Incheon Metro",
+      "category": "Public Bidding",
+      "discoveryDate": "2026-06-19",
+      "whyItMatters": "Incheon Metro is auctioning co-naming rights for 8 stations on Line 2, which connects Incheon Airport to residential and commercial areas. Songdo International Business District stations carry a particularly affluent, internationally mobile audience. First auction in 3 years — previous names expire in August.",
+      "opportunityScore": 8.3,
+      "isNew": true,
+      "isReturning": false
+    },
+    {
+      "title": "AREX Airport Railroad Adds Idle-Screen Ad Slots at All 10 Stations",
+      "source": "AREX",
+      "category": "Transit",
+      "discoveryDate": "2026-06-19",
+      "whyItMatters": "AREX connects Seoul Station to Incheon Airport in 43 minutes. The 10 stations now offer idle-screen ad inventory previously reserved for AREX self-promotion. Travelers on AREX are 100% airport-bound — the highest concentration of travel-product-receptive audience in any transit format.",
+      "opportunityScore": 8.2,
+      "isNew": true,
+      "isReturning": false
+    },
+    {
+      "title": "FastFive Launches Corporate Brand Sponsorship Packages for 50 Seoul Locations",
+      "source": "FastFive",
+      "category": "Coworking",
+      "discoveryDate": "2026-06-19",
+      "whyItMatters": "FastFive has formalised its corporate sponsorship offering: a single brand sponsor receives Wi-Fi login page branding, lounge digital screen presence, and meeting room naming rights across all 50 Seoul locations simultaneously. The financial services category is currently unoccupied. Package pricing is significantly below what a comparable mass digital campaign would cost.",
+      "opportunityScore": 8,
+      "isNew": true,
+      "isReturning": false
+    },
+    {
+      "title": "KTX Gyeonggang Line Interior Digital Screens Fully Upgraded to HD",
+      "source": "Korail",
+      "category": "Transit",
+      "discoveryDate": "2026-06-19",
+      "whyItMatters": "Korail completed a full HD screen upgrade on all KTX Gyeonggang Line interior screens. The Seoul–Gangneung route sees premium leisure travelers (ski season, Chuseok travel) and business travelers. The upgraded screens support motion creative — previously only static print was possible on this route.",
+      "opportunityScore": 7.2,
+      "isNew": true,
+      "isReturning": false
+    }
+  ],
+  "discoverySummary": {
+    "newCount": 7,
+    "returningCount": 0,
+    "removedFromLastWeekCount": 5,
+    "newTitles": [
+      "ChargeEV Launches Ad-Supported EV Charger Screen Monetization Program",
+      "GOLFZON Announces Media Partnership Program for Bay Monitor Screen Branding",
+      "Kakao Mobility Programmatic Taxi-Top LED Network Launches Nationwide",
+      "Incheon Metro Line 2 Station Co-Naming Auction Opens for 8 Stations",
+      "AREX Airport Railroad Adds Idle-Screen Ad Slots at All 10 Stations",
+      "FastFive Launches Corporate Brand Sponsorship Packages for 50 Seoul Locations",
+      "KTX Gyeonggang Line Interior Digital Screens Fully Upgraded to HD"
+    ],
+    "returningTitles": [],
+    "removedFromLastWeekTitles": [
+      "Seoul Metro Opens Q3 Station Co-Naming Inventory: 12 New Stations Available",
+      "BGF Retail (CU) Opens Parcel Locker Screen Advertising Pilot Q3 2026",
+      "Incheon Airport T3 Gate Charging Station Infrastructure Partnership Bid",
+      "Seoul Metro Line 5 Magok–Gimpo Airport Extension Opens 6 New Naming Rights Stations",
+      "IKEA Korea Announces In-Store Financial Partner Program for H2 2026"
+    ],
+    "hasPreviousWeek": true
+  }
+}

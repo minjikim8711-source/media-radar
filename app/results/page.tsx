@@ -3,6 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 import ResultsClient from '@/components/ResultsClient';
 import type { MediaChannel } from '@/components/MediaChannelCard';
+import type { Discovery, DiscoverySummary } from '@/components/DiscoveryFeed';
 
 // Always render fresh — never serve a cached build-time snapshot
 export const dynamic = 'force-dynamic';
@@ -17,9 +18,11 @@ interface WeeklyMeta {
 }
 
 interface LoadResult {
-  channels: MediaChannel[];
-  source:   'weekly' | 'static';
-  meta:     WeeklyMeta | null;
+  channels:          MediaChannel[];
+  source:            'weekly' | 'static';
+  meta:              WeeklyMeta | null;
+  discoveries:       Discovery[];
+  discoverySummary:  DiscoverySummary | null;
 }
 
 // ── File loader (runs on the server at request time) ─────────────────────────
@@ -32,11 +35,13 @@ function loadChannels(): LoadResult {
     try {
       const raw = JSON.parse(fs.readFileSync(latestPath, 'utf-8'));
 
-      // Wrapped weekly format: { generatedAt, weekLabel, opportunities: [...] }
+      // Wrapped weekly format: { generatedAt, weekLabel, opportunities: [...], discoveries: [...] }
       if (!Array.isArray(raw) && Array.isArray(raw.opportunities)) {
         return {
-          channels: raw.opportunities as MediaChannel[],
-          source:   'weekly',
+          channels:         raw.opportunities as MediaChannel[],
+          source:           'weekly',
+          discoveries:      Array.isArray(raw.discoveries) ? (raw.discoveries as Discovery[]) : [],
+          discoverySummary: raw.discoverySummary ?? null,
           meta: {
             generatedAt:  raw.generatedAt,
             weekLabel:    raw.weekLabel,
@@ -49,7 +54,7 @@ function loadChannels(): LoadResult {
 
       // Plain array (edge case: someone manually placed an array in weeks/)
       if (Array.isArray(raw)) {
-        return { channels: raw as MediaChannel[], source: 'weekly', meta: null };
+        return { channels: raw as MediaChannel[], source: 'weekly', meta: null, discoveries: [], discoverySummary: null };
       }
     } catch {
       // Parse failure — fall through to static file
@@ -58,7 +63,7 @@ function loadChannels(): LoadResult {
 
   // 2. Fallback: static curated dataset
   const raw = JSON.parse(fs.readFileSync(fallbackPath, 'utf-8'));
-  return { channels: raw as MediaChannel[], source: 'static', meta: null };
+  return { channels: raw as MediaChannel[], source: 'static', meta: null, discoveries: [], discoverySummary: null };
 }
 
 // ── Page ─────────────────────────────────────────────────────────────────────
@@ -69,7 +74,7 @@ interface Props {
 export default async function ResultsPage({ searchParams }: Props) {
   const { kpis }  = await searchParams;
   const kpiIds    = kpis ? kpis.split(',').filter(Boolean) : [];
-  const { channels, source, meta } = loadChannels();
+  const { channels, source, meta, discoveries, discoverySummary } = loadChannels();
 
   return (
     <main className="max-w-screen-xl mx-auto px-4 sm:px-6 py-8 space-y-6">
@@ -103,6 +108,8 @@ export default async function ResultsPage({ searchParams }: Props) {
         channels={channels}
         source={source}
         meta={meta}
+        discoveries={discoveries}
+        discoverySummary={discoverySummary}
       />
     </main>
   );

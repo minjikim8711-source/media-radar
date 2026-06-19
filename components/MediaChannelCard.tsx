@@ -14,10 +14,14 @@ export interface MediaChannel {
   risks: string[];
   exampleUsage: string;
   // Present only in weekly-generated data
-  kpiFit?:      number;
-  novelty?:     number;
-  reach?:       number;
-  feasibility?: number;
+  kpiFit?:         number;
+  novelty?:        number;
+  reach?:          number;
+  feasibility?:    number;
+  whyNew?:         string;
+  marketAdoption?: string;
+  exampleBrands?:  string[];
+  expectedImpact?: string;
 }
 
 // ── Opportunity tier ─────────────────────────────────────────────────────────
@@ -55,15 +59,27 @@ const compStyle: Record<string, string> = {
 
 // ── Category pill ─────────────────────────────────────────────────────────────
 const catColor: Record<string, string> = {
-  Cinema:                 'bg-blue-500/15 text-blue-300 border-blue-500/30',
-  Transit:                'bg-violet-500/15 text-violet-300 border-violet-500/30',
-  'Transit Branding':     'bg-violet-500/15 text-violet-300 border-violet-500/30',
-  Experiential:           'bg-pink-500/15 text-pink-300 border-pink-500/30',
-  Retail:                 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
-  'Financial Touchpoint': 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
-  'Digital OOH':          'bg-amber-500/15 text-amber-300 border-amber-500/30',
-  OOH:                    'bg-amber-500/15 text-amber-300 border-amber-500/30',
-  Sponsorship:            'bg-orange-500/15 text-orange-300 border-orange-500/30',
+  Cinema:                  'bg-blue-500/15 text-blue-300 border-blue-500/30',
+  'Transit Branding':      'bg-violet-500/15 text-violet-300 border-violet-500/30',
+  'EV Infrastructure':     'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
+  'Apartment Community':   'bg-teal-500/15 text-teal-300 border-teal-500/30',
+  Coworking:               'bg-sky-500/15 text-sky-300 border-sky-500/30',
+  Campus:                  'bg-indigo-500/15 text-indigo-300 border-indigo-500/30',
+  Healthcare:              'bg-pink-500/15 text-pink-300 border-pink-500/30',
+  Airport:                 'bg-orange-500/15 text-orange-300 border-orange-500/30',
+  'Fintech Partnership':   'bg-amber-500/15 text-amber-300 border-amber-500/30',
+  'Retail Partnership':    'bg-lime-500/15 text-lime-300 border-lime-500/30',
+  'Public Infrastructure': 'bg-slate-400/15 text-slate-300 border-slate-400/30',
+  Audio:                   'bg-purple-500/15 text-purple-300 border-purple-500/30',
+  Emerging:                'bg-rose-500/15 text-rose-300 border-rose-500/30',
+};
+
+// ── Market adoption badge ─────────────────────────────────────────────────────
+const adoptionStyle: Record<string, string> = {
+  'Early Adopter': 'bg-rose-500/10 text-rose-300 border-rose-500/25',
+  'Emerging':      'bg-violet-500/10 text-violet-300 border-violet-500/25',
+  'Growing':       'bg-amber-500/10 text-amber-300 border-amber-500/25',
+  'Maturing':      'bg-slate-500/10 text-slate-400 border-slate-500/25',
 };
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -112,6 +128,12 @@ export default function MediaChannelCard({ ch, rank }: Props) {
             {isTop && (
               <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-yellow-400/15 text-yellow-300 border border-yellow-400/30 uppercase tracking-wide">
                 ★ Top Opportunity
+              </span>
+            )}
+            {/* Market adoption badge */}
+            {ch.marketAdoption && (
+              <span className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium border ${adoptionStyle[ch.marketAdoption] ?? 'bg-slate-500/10 text-slate-400 border-slate-500/25'}`}>
+                {ch.marketAdoption}
               </span>
             )}
           </div>
@@ -170,6 +192,44 @@ export default function MediaChannelCard({ ch, rank }: Props) {
             <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Deeper Look</p>
             <p className="text-xs text-slate-300 leading-relaxed">{ch.details}</p>
           </div>
+
+          {/* Why unconventional + expected impact (weekly data only) */}
+          {(ch.whyNew || ch.expectedImpact) && (
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+              {ch.whyNew && (
+                <div className="space-y-1">
+                  <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Why Unconventional</p>
+                  <p className="text-xs text-slate-300 leading-relaxed">{ch.whyNew}</p>
+                </div>
+              )}
+              {ch.expectedImpact && (
+                <div className="space-y-1">
+                  <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Expected Impact</p>
+                  <p className="text-xs text-slate-300 leading-relaxed">{ch.expectedImpact}</p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Example brands */}
+          {ch.exampleBrands && ch.exampleBrands.length > 0 && (
+            <div className="space-y-1.5">
+              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Brands Already Using This</p>
+              <div className="flex flex-wrap gap-1.5">
+                {ch.exampleBrands.map(b => (
+                  <span key={b} className="text-[10px] px-2 py-0.5 rounded bg-slate-700/60 text-slate-300 border border-slate-600/40">
+                    {b}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+          {ch.exampleBrands && ch.exampleBrands.length === 0 && (
+            <div className="space-y-1">
+              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Brands Already Using This</p>
+              <p className="text-[10px] text-slate-600 italic">None identified in Korea — early-mover opportunity.</p>
+            </div>
+          )}
 
           {/* Risks */}
           <div className="space-y-2">

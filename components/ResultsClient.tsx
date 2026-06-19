@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { kpis, resolveCategories, resolveKpis } from '@/data/kpi-mapping';
 import MediaChannelCard, { type MediaChannel } from './MediaChannelCard';
+import DiscoveryFeed, { type Discovery, type DiscoverySummary } from './DiscoveryFeed';
 
 type SortKey = 'score' | 'name' | 'competition';
 
@@ -27,13 +28,15 @@ interface WeeklyMeta {
 }
 
 interface Props {
-  kpiIds:   string[];
-  channels: MediaChannel[];
-  source:   'weekly' | 'static';
-  meta:     WeeklyMeta | null;
+  kpiIds:           string[];
+  channels:         MediaChannel[];
+  source:           'weekly' | 'static';
+  meta:             WeeklyMeta | null;
+  discoveries:      Discovery[];
+  discoverySummary: DiscoverySummary | null;
 }
 
-export default function ResultsClient({ kpiIds, channels, source, meta }: Props) {
+export default function ResultsClient({ kpiIds, channels, source, meta, discoveries, discoverySummary }: Props) {
   const router = useRouter();
   const [sort, setSort] = useState<SortKey>('score');
 
@@ -111,6 +114,15 @@ export default function ResultsClient({ kpiIds, channels, source, meta }: Props)
             Showing static dataset · Run <code className="text-slate-400 bg-slate-700/60 px-1 py-0.5 rounded text-[10px]">npm run generate-weekly</code> to load AI-generated opportunities
           </span>
         </div>
+      )}
+
+      {/* ── Discovery feed (weekly only) ───────────────────────────────── */}
+      {source === 'weekly' && (
+        <DiscoveryFeed
+          discoveries={discoveries}
+          summary={discoverySummary}
+          updatedDate={meta?.generatedAt}
+        />
       )}
 
       {/* ── Filter panel ───────────────────────────────────────────────── */}
