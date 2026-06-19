@@ -41,13 +41,14 @@ const tierConfig: Record<Tier, {
   labelColor: string;
   scoreColor: string;
 }> = {
-  high:   { border: 'border-emerald-500/40', stripe: 'bg-emerald-500',  dot: 'bg-emerald-400', label: 'High Opportunity',   labelColor: 'text-emerald-400', scoreColor: 'text-emerald-400' },
-  medium: { border: 'border-amber-500/40',   stripe: 'bg-amber-400',    dot: 'bg-amber-400',   label: 'Medium Opportunity', labelColor: 'text-amber-400',   scoreColor: 'text-amber-400'   },
-  low:    { border: 'border-red-500/40',     stripe: 'bg-red-500',      dot: 'bg-red-400',     label: 'Low Opportunity',    labelColor: 'text-red-400',     scoreColor: 'text-red-400'     },
+  high:   { border: 'border-emerald-500/40', stripe: 'bg-emerald-500',  dot: 'bg-emerald-400', label: '기회 높음', labelColor: 'text-emerald-400', scoreColor: 'text-emerald-400' },
+  medium: { border: 'border-amber-500/40',   stripe: 'bg-amber-400',    dot: 'bg-amber-400',   label: '기회 보통', labelColor: 'text-amber-400',   scoreColor: 'text-amber-400'   },
+  low:    { border: 'border-red-500/40',     stripe: 'bg-red-500',      dot: 'bg-red-400',     label: '기회 낮음', labelColor: 'text-red-400',     scoreColor: 'text-red-400'     },
 };
 
 // ── Trend / competition ──────────────────────────────────────────────────────
-const trendIcon: Record<string, string> = { Rising: '↑', Stable: '→', Declining: '↓' };
+const trendIcon:  Record<string, string> = { Rising: '↑', Stable: '→', Declining: '↓' };
+const trendLabel: Record<string, string> = { Rising: '상승세', Stable: '안정', Declining: '하락세' };
 const trendColor: Record<string, string> = {
   Rising: 'text-emerald-400', Stable: 'text-slate-400', Declining: 'text-red-400',
 };
@@ -55,6 +56,15 @@ const compStyle: Record<string, string> = {
   Low:    'text-emerald-400 bg-emerald-500/10 border-emerald-500/25',
   Medium: 'text-amber-400   bg-amber-500/10   border-amber-500/25',
   High:   'text-red-400     bg-red-500/10     border-red-500/25',
+};
+const compLabel: Record<string, string> = {
+  Low: '경쟁도 낮음', Medium: '경쟁도 보통', High: '경쟁도 높음',
+};
+const adoptionLabel: Record<string, string> = {
+  'Early Adopter': '초기 도입 단계',
+  'Emerging':      '성장 초기 단계',
+  'Growing':       '확산 단계',
+  'Maturing':      '성숙 단계',
 };
 
 // ── Category pill ─────────────────────────────────────────────────────────────
@@ -127,13 +137,13 @@ export default function MediaChannelCard({ ch, rank }: Props) {
             {/* TOP badge */}
             {isTop && (
               <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-yellow-400/15 text-yellow-300 border border-yellow-400/30 uppercase tracking-wide">
-                ★ Top Opportunity
+                ★ 최우선 추천
               </span>
             )}
             {/* Market adoption badge */}
             {ch.marketAdoption && (
               <span className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium border ${adoptionStyle[ch.marketAdoption] ?? 'bg-slate-500/10 text-slate-400 border-slate-500/25'}`}>
-                {ch.marketAdoption}
+                {adoptionLabel[ch.marketAdoption] ?? ch.marketAdoption}
               </span>
             )}
           </div>
@@ -143,7 +153,7 @@ export default function MediaChannelCard({ ch, rank }: Props) {
             <span className={`text-2xl font-bold tabular-nums leading-none ${cfg.scoreColor}`}>
               {ch.score.toFixed(1)}
             </span>
-            <p className="text-[9px] text-slate-500 mt-0.5 uppercase tracking-wide">score</p>
+            <p className="text-[9px] text-slate-500 mt-0.5 uppercase tracking-wide">기회 점수</p>
           </div>
         </div>
 
@@ -161,18 +171,18 @@ export default function MediaChannelCard({ ch, rank }: Props) {
 
         {/* Row 4: why */}
         <div className="bg-slate-800/50 border border-slate-700/40 rounded-lg px-3 py-2.5 space-y-1">
-          <p className="text-[9px] font-semibold text-slate-500 uppercase tracking-widest">Why this channel</p>
+          <p className="text-[9px] font-semibold text-slate-500 uppercase tracking-widest">왜 이 매체인가?</p>
           <p className="text-xs text-slate-300 leading-relaxed">{ch.why}</p>
         </div>
 
         {/* Row 5: footer */}
         <div className="flex items-center justify-between pt-1 border-t border-slate-800">
           <span className={`text-xs font-semibold ${trendColor[ch.trend] ?? 'text-slate-400'}`}>
-            {trendIcon[ch.trend]} {ch.trend}
+            {trendIcon[ch.trend]} {trendLabel[ch.trend] ?? ch.trend}
           </span>
           <div className="flex items-center gap-2">
             <span className={`text-[10px] font-medium px-2 py-0.5 rounded border ${compStyle[ch.competition] ?? 'text-slate-400 bg-slate-500/10 border-slate-500/20'}`}>
-              {ch.competition} competition
+              {compLabel[ch.competition] ?? ch.competition}
             </span>
             <span className={`text-[10px] text-slate-500 transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}>
               ▾
@@ -189,7 +199,7 @@ export default function MediaChannelCard({ ch, rank }: Props) {
         >
           {/* Deeper look */}
           <div className="space-y-1.5">
-            <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Deeper Look</p>
+            <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">상세 분석</p>
             <p className="text-xs text-slate-300 leading-relaxed">{ch.details}</p>
           </div>
 
@@ -198,13 +208,13 @@ export default function MediaChannelCard({ ch, rank }: Props) {
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               {ch.whyNew && (
                 <div className="space-y-1">
-                  <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Why Unconventional</p>
+                  <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">왜 새로운 매체인가?</p>
                   <p className="text-xs text-slate-300 leading-relaxed">{ch.whyNew}</p>
                 </div>
               )}
               {ch.expectedImpact && (
                 <div className="space-y-1">
-                  <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Expected Impact</p>
+                  <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">기대 효과</p>
                   <p className="text-xs text-slate-300 leading-relaxed">{ch.expectedImpact}</p>
                 </div>
               )}
@@ -214,7 +224,7 @@ export default function MediaChannelCard({ ch, rank }: Props) {
           {/* Example brands */}
           {ch.exampleBrands && ch.exampleBrands.length > 0 && (
             <div className="space-y-1.5">
-              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Brands Already Using This</p>
+              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">활용 사례</p>
               <div className="flex flex-wrap gap-1.5">
                 {ch.exampleBrands.map(b => (
                   <span key={b} className="text-[10px] px-2 py-0.5 rounded bg-slate-700/60 text-slate-300 border border-slate-600/40">
@@ -226,14 +236,14 @@ export default function MediaChannelCard({ ch, rank }: Props) {
           )}
           {ch.exampleBrands && ch.exampleBrands.length === 0 && (
             <div className="space-y-1">
-              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Brands Already Using This</p>
-              <p className="text-[10px] text-slate-600 italic">None identified in Korea — early-mover opportunity.</p>
+              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">활용 사례</p>
+              <p className="text-[10px] text-slate-600 italic">국내 활용 사례 없음 (선점 기회)</p>
             </div>
           )}
 
           {/* Risks */}
           <div className="space-y-2">
-            <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Risks to Consider</p>
+            <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">리스크 및 고려 사항</p>
             <ul className="space-y-1.5">
               {ch.risks.map((r, i) => (
                 <li key={i} className="flex items-start gap-2 text-xs text-slate-400 leading-relaxed">
@@ -246,7 +256,7 @@ export default function MediaChannelCard({ ch, rank }: Props) {
 
           {/* Example usage */}
           <div className="space-y-1.5">
-            <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Example Usage</p>
+            <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">활용 예시</p>
             <blockquote className="border-l-2 border-blue-500/50 pl-3 text-xs text-slate-300 leading-relaxed italic">
               {ch.exampleUsage}
             </blockquote>
@@ -255,13 +265,13 @@ export default function MediaChannelCard({ ch, rank }: Props) {
           {/* Sub-score breakdown (weekly data only) */}
           {ch.kpiFit !== undefined && (
             <div className="space-y-2">
-              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Score Breakdown</p>
+              <p className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">점수 세부 분석</p>
               <div className="grid grid-cols-2 gap-x-4 gap-y-2">
                 {([
-                  ['KPI Fit',     ch.kpiFit,      'bg-blue-500'],
-                  ['Novelty',     ch.novelty,     'bg-violet-500'],
-                  ['Reach',       ch.reach,       'bg-emerald-500'],
-                  ['Feasibility', ch.feasibility, 'bg-amber-500'],
+                  ['KPI 적합도',   ch.kpiFit,      'bg-blue-500'],
+                  ['혁신성',       ch.novelty,     'bg-violet-500'],
+                  ['도달 범위',    ch.reach,       'bg-emerald-500'],
+                  ['실현 가능성',  ch.feasibility, 'bg-amber-500'],
                 ] as [string, number | undefined, string][]).map(([label, val, color]) => (
                   <div key={label} className="space-y-1">
                     <div className="flex justify-between text-[10px]">
@@ -281,7 +291,7 @@ export default function MediaChannelCard({ ch, rank }: Props) {
             className="text-[10px] text-slate-500 hover:text-slate-300 underline"
             onClick={() => setExpanded(false)}
           >
-            Collapse ▴
+            접기 ▴
           </button>
         </div>
       )}

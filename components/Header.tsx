@@ -1,5 +1,5 @@
 export default function Header() {
-  const now = new Date().toLocaleDateString('en-US', {
+  const now = new Date().toLocaleDateString('ko-KR', {
     year: 'numeric', month: 'long', day: 'numeric',
   });
 
@@ -15,10 +15,10 @@ export default function Header() {
           </div>
           <div>
             <h1 className="text-sm font-semibold text-slate-100 leading-none">
-              New Media Opportunity Radar
+              신규 매체 기회 레이더
             </h1>
             <p className="text-[10px] text-slate-500 mt-0.5 hidden sm:block">
-              Marketing & BX Strategy Dashboard
+              마케팅 & BX 전략 대시보드
             </p>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Header() {
           <span className="text-[11px] text-slate-500 hidden md:block">{now}</span>
           <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="text-[10px] text-emerald-400 font-medium">Live</span>
+            <span className="text-[10px] text-emerald-400 font-medium">실시간</span>
           </div>
         </div>
       </div>

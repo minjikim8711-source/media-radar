@@ -62,7 +62,7 @@ export default function KpiCard({ kpi, selected, onToggle }: Props) {
         {kpi.description}
       </p>
       <span className={`text-[10px] font-medium px-2 py-0.5 rounded-full ${a.badge}`}>
-        {kpi.channelCount} channel{kpi.channelCount !== 1 ? 's' : ''}
+        {kpi.channelCount}개 채널
       </span>
     </button>
   );

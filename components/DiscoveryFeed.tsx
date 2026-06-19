@@ -143,7 +143,7 @@ export default function DiscoveryFeed({ discoveries, summary, updatedDate }: Pro
       {/* ── Header ── */}
       <div className="flex flex-col gap-1">
         <div className="flex items-baseline gap-3 flex-wrap">
-          <h2 className="text-base font-bold text-slate-100">🔥 This Week's Discoveries</h2>
+          <h2 className="text-base font-bold text-slate-100">🔥 이번 주 신규 매체 발견</h2>
           {displayDate && (
             <span className="text-[10px] text-slate-600">{displayDate} 기준</span>
           )}

@@ -80,14 +80,14 @@ export default async function ResultsPage({ searchParams }: Props) {
     <main className="max-w-screen-xl mx-auto px-4 sm:px-6 py-8 space-y-6">
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-xs text-slate-500">
-        <Link href="/" className="hover:text-slate-300 transition-colors">Home</Link>
+        <Link href="/" className="hover:text-slate-300 transition-colors">홈</Link>
         <span>/</span>
-        <span className="text-slate-300">Opportunities</span>
+        <span className="text-slate-300">추천 매체</span>
         {kpiIds.length > 0 && (
           <>
             <span>/</span>
             <span className="text-slate-400">
-              {kpiIds.length} KPI{kpiIds.length > 1 ? 's' : ''} selected
+              KPI {kpiIds.length}개 선택됨
             </span>
           </>
         )}
@@ -95,11 +95,11 @@ export default async function ResultsPage({ searchParams }: Props) {
 
       {/* Page title */}
       <div>
-        <h1 className="text-xl font-bold text-slate-100">Media Opportunities</h1>
+        <h1 className="text-xl font-bold text-slate-100">미디어 기회 탐색</h1>
         <p className="text-sm text-slate-400 mt-1">
           {kpiIds.length === 0
-            ? 'Showing all available channels. Select a KPI filter to narrow results.'
-            : 'Filtered by your selected KPIs. Click any tag below to add or remove a filter.'}
+            ? '전체 채널을 표시합니다. KPI 필터를 선택해 결과를 좁혀보세요.'
+            : '선택한 KPI 기준으로 필터링 중입니다. 아래 태그를 눌러 필터를 추가하거나 제거하세요.'}
         </p>
       </div>
 

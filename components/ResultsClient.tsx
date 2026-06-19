@@ -10,6 +10,13 @@ type SortKey = 'score' | 'name' | 'competition';
 
 const compOrder: Record<string, number> = { Low: 0, Medium: 1, High: 2 };
 
+const weightLabel: Record<string, string> = {
+  kpiFit:      'KPI 적합도',
+  novelty:     '혁신성',
+  reach:       '도달 범위',
+  feasibility: '실현 가능성',
+};
+
 const accentPillMap: Record<string, string> = {
   blue:    'bg-blue-500/15 text-blue-300 border-blue-500/30',
   violet:  'bg-violet-500/15 text-violet-300 border-violet-500/30',
@@ -81,7 +88,7 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
         <div className="bg-blue-500/8 border border-blue-500/20 rounded-xl px-4 py-3 flex flex-col sm:flex-row sm:items-start gap-3">
           <div className="flex items-center gap-2 shrink-0">
             <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-            <span className="text-[10px] font-semibold text-blue-400 uppercase tracking-widest">Weekly AI Report</span>
+            <span className="text-[10px] font-semibold text-blue-400 uppercase tracking-widest">주간 AI 분석 리포트</span>
           </div>
           <div className="space-y-1 min-w-0">
             <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
@@ -90,7 +97,7 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
                 <span className="text-[11px] text-blue-300 font-medium">· {meta.weekTheme}</span>
               )}
               <span className="text-[11px] text-slate-500">
-                · Generated {new Date(meta.generatedAt).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}
+                · 생성 시각 {new Date(meta.generatedAt).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' })}
               </span>
             </div>
             {meta.aiCommentary && (
@@ -100,7 +107,7 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
               <div className="flex flex-wrap gap-3 pt-0.5">
                 {Object.entries(meta.scoreWeights).map(([k, w]) => (
                   <span key={k} className="text-[10px] text-slate-500">
-                    <span className="text-slate-400 font-medium capitalize">{k}</span> {Math.round(w * 100)}%
+                    <span className="text-slate-400 font-medium">{weightLabel[k] ?? k}</span> {Math.round(w * 100)}%
                   </span>
                 ))}
               </div>
@@ -111,7 +118,7 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
         <div className="bg-slate-800/50 border border-slate-700/50 rounded-xl px-4 py-3 flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-slate-500" />
           <span className="text-[11px] text-slate-500">
-            Showing static dataset · Run <code className="text-slate-400 bg-slate-700/60 px-1 py-0.5 rounded text-[10px]">npm run generate-weekly</code> to load AI-generated opportunities
+            정적 데이터 표시 중 · <code className="text-slate-400 bg-slate-700/60 px-1 py-0.5 rounded text-[10px]">npm run generate-weekly</code> 실행 시 AI 생성 추천 결과가 로드됩니다
           </span>
         </div>
       )}
@@ -129,10 +136,10 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
       <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-4">
         <div className="flex items-center justify-between gap-4 flex-wrap">
           <div>
-            <p className="text-[9px] font-semibold text-slate-500 uppercase tracking-widest mb-2">Active filters</p>
+            <p className="text-[9px] font-semibold text-slate-500 uppercase tracking-widest mb-2">활성 필터</p>
             <div className="flex flex-wrap gap-2">
               {activeKpis.length === 0 ? (
-                <span className="text-xs text-slate-500">None — showing all {channels.length} channels</span>
+                <span className="text-xs text-slate-500">없음 — 전체 {channels.length}개 채널 표시 중</span>
               ) : (
                 activeKpis.map(k => (
                   <button
@@ -149,22 +156,22 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="text-xs text-slate-500">Sort:</span>
+            <span className="text-xs text-slate-500">정렬:</span>
             <select
               value={sort}
               onChange={e => setSort(e.target.value as SortKey)}
               className="bg-slate-800 border border-slate-700 text-slate-300 text-xs rounded-lg px-3 py-1.5 focus:outline-none focus:border-blue-500"
             >
-              <option value="score">Score (high → low)</option>
-              <option value="name">Name (A → Z)</option>
-              <option value="competition">Competition (low → high)</option>
+              <option value="score">점수 높은 순</option>
+              <option value="name">이름 순</option>
+              <option value="competition">경쟁도 낮은 순</option>
             </select>
           </div>
         </div>
 
         {/* KPI toggles */}
         <div>
-          <p className="text-[9px] font-semibold text-slate-500 uppercase tracking-widest mb-2">Refine by channel type</p>
+          <p className="text-[9px] font-semibold text-slate-500 uppercase tracking-widest mb-2">채널 유형별 필터</p>
           <div className="flex flex-wrap gap-2">
             {kpis.map(k => {
               const active = kpiIds.includes(k.id);
@@ -191,20 +198,20 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
       <div className="flex items-center justify-between gap-4 flex-wrap">
         <div className="flex items-center gap-3">
           <h2 className="text-base font-semibold text-slate-100">
-            {sorted.length} channel{sorted.length !== 1 ? 's' : ''} found
+            추천 결과 {sorted.length}개
           </h2>
           {kpiIds.length > 0 && (
             <span className="text-xs text-slate-500">
-              across {resolveCategories(kpiIds).length} categor{resolveCategories(kpiIds).length === 1 ? 'y' : 'ies'}
+              {resolveCategories(kpiIds).length}개 카테고리
             </span>
           )}
         </div>
 
         <div className="flex items-center gap-4 text-[10px] text-slate-500">
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-emerald-400" />High ≥ 8.0</span>
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-amber-400" />Medium ≥ 6.5</span>
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-red-400" />Low &lt; 6.5</span>
-          <span className="flex items-center gap-1.5"><span className="text-yellow-300">★</span>Top ≥ 8.5</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-emerald-400" />높음 ≥ 8.0</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-amber-400" />보통 ≥ 6.5</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-red-400" />낮음 &lt; 6.5</span>
+          <span className="flex items-center gap-1.5"><span className="text-yellow-300">★</span>최우선 ≥ 8.5</span>
         </div>
       </div>
 
@@ -212,12 +219,12 @@ export default function ResultsClient({ kpiIds, channels, source, meta, discover
       {sorted.length === 0 ? (
         <div className="flex flex-col items-center justify-center py-24 text-slate-500 gap-3">
           <span className="text-5xl">◌</span>
-          <p className="text-sm">No channels match the selected filters.</p>
+          <p className="text-sm">선택한 필터에 맞는 채널이 없습니다.</p>
           <button
             onClick={() => router.push('/results')}
             className="text-xs text-blue-400 hover:text-blue-300 underline"
           >
-            Clear all filters
+            필터 전체 해제
           </button>
         </div>
       ) : (

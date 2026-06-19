@@ -20,33 +20,33 @@ function jitter(base) {
 // ── Weekly themes ─────────────────────────────────────────────────────────────
 const WEEKLY_THEMES = [
   {
-    theme: 'Untapped Touchpoint Discovery',
-    commentary: "This week surfaces zero-competition formats where no Korean bank brand has yet established presence — early-mover advantage is the primary selection criterion.",
+    theme: '비활용 접점 발굴',
+    commentary: "이번 주는 국내 은행 브랜드가 아직 진입하지 않은 '제로 경쟁' 포맷을 중심으로 선정했습니다. 선점 이점이 핵심 선정 기준입니다.",
     preferHigh: ['novelty'],
   },
   {
-    theme: 'Premium Dwell-Time Focus',
-    commentary: "Channels this week prioritize captive audiences with 15+ minute dwell times — hospital waiting rooms, airport lounges, cinema — where brand storytelling has room to breathe.",
+    theme: '프리미엄 체류형 매체 집중',
+    commentary: "15분 이상 체류하는 포획형 오디언스를 가진 채널 — 병원 대기실, 공항 라운지, 영화관 — 을 중심으로 브랜드 스토리텔링 공간이 충분한 매체를 선정했습니다.",
     preferHigh: ['kpiFit', 'reach'],
   },
   {
-    theme: 'Partnership-First Strategy',
-    commentary: "This week emphasizes embedded partnerships over ad placements — integrating the bank into fintech apps and retail moments rather than buying space around them.",
+    theme: '파트너십 우선 전략',
+    commentary: "이번 주는 광고 집행보다 파트너십 임베딩에 집중합니다. 핀테크 앱과 리테일 접점에 브랜드를 자연스럽게 녹여내는 방식입니다.",
     preferHigh: ['kpiFit', 'novelty'],
   },
   {
-    theme: 'Community Banking Initiative',
-    commentary: "Selection focuses on hyper-local community contexts — apartment platforms, campus networks, and coworking spaces — where trust-driven financial messaging converts above average.",
+    theme: '커뮤니티 금융 이니셔티브',
+    commentary: "아파트 플랫폼, 캠퍼스 네트워크, 코워킹 스페이스 등 신뢰 기반의 지역 커뮤니티 맥락에 집중했습니다. 금융 메시지 전환율이 평균 이상인 환경입니다.",
     preferHigh: ['novelty', 'reach'],
   },
   {
-    theme: 'Infrastructure Moments',
-    commentary: "Public infrastructure touchpoints — EV chargers, station naming rights, smart city kiosks — turn everyday utility moments into persistent brand impressions at very low competitive noise.",
+    theme: '인프라 접점 전략',
+    commentary: "EV 충전소, 역명 병기권, 스마트시티 키오스크 등 공공 인프라 접점은 일상적 유틸리티 순간을 경쟁 노이즈가 낮은 지속적 브랜드 인상으로 전환합니다.",
     preferHigh: ['feasibility', 'novelty'],
   },
   {
-    theme: 'Life Stage Interceptors',
-    commentary: "Channels are chosen for their alignment with pivotal financial life stages — maternity clinics, MBA programs, first-time EV owners — where acquisition has the highest long-term LTV.",
+    theme: '생애주기 접점 공략',
+    commentary: "산부인과, MBA 프로그램, 첫 EV 구매자 등 핵심 금융 생애주기 전환점과 정렬된 채널을 선정했습니다. 장기 LTV 관점에서 고객 획득 가치가 가장 높은 구간입니다.",
     preferHigh: ['kpiFit'],
   },
 ];
@@ -997,7 +997,7 @@ function generate(history) {
   return {
     output: {
       generatedAt:      today.toISOString(),
-      weekLabel:        `Week of ${today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`,
+      weekLabel:        `${today.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' })} 주간`,
       weekTheme:        themeDef.theme,
       aiCommentary:     themeDef.commentary,
       scoreWeights:     WEIGHTS,
